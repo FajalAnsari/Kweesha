@@ -1,0 +1,29 @@
+.contact_us .cont{
+    color: var(--text-green-700);
+}
+.cc {
+
+border: 1px solid var(--bg-green-900);
+border-radius: 23px;
+}
+.contact_us .des {
+    color: var(--text-black-300);
+    font-family: 'Outfit', sans-serif;
+}
+.contact_us h2{
+    color: var(--text-black-700);
+    
+}
+.contact_us{
+    background-color: var(--bg-contact);
+    font-family: 'Outfit', sans-serif;
+}
+.contact_us p {
+    font-family: 'Outfit', sans-serif;
+    font-size: 88%;
+}
+.contact_us .msg{
+    font-family: 'Outfit', sans-serif; 
+    font-size: 95%;
+    
+}
