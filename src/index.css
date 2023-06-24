@@ -6,10 +6,12 @@
   --text-black-700: #123151;
   --text-green-700:#34A853;
  --background: linear-gradient(rgba(173, 223, 185, 0.281), rgba(173, 223, 185, 0.103));
-
+   --read_data:#161D27;
+   
   --text-white-700: #FFFFFF;
   --bg-contact:#F5F5F5;
-
+   --read-more-bg: linear-gradient(rgba(151, 194, 163, 0.562), rgba(228, 197, 197, 0.884));
+   
 }
 *{
   font-family: 'Concert One', cursive;
