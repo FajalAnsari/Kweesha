@@ -1,0 +1,15 @@
+:root{
+  --primary:#4CAB65;
+  --second-primary: #f3f9f5;
+  --third-primary:  #909090;
+  --line: #4E555F;
+  --forth-primary: #F5F5F5;
+  --secondary: #123151;
+  --second-secondary:#34A853;
+ --background: linear-gradient(rgba(76, 171, 101, 1), rgba(255, 255, 255, 1));
+  --bg-third-secondary: #FFFFFF;
+  
+}
+body{
+  background-color: var(--bg-third-secondary) !important;
+}
