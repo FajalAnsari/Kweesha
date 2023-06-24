@@ -1,11 +1,14 @@
 .footer_page .footer_com{
     width: 100px !important; 
-    background-color: var(--line);
+    background-color: var(--line-second);
      height: 2px
 }
+.kweeshalogo{
+    margin-top: -15px !important;
+}
 .footer_page .footer_comm{
-    width: 100%; 
-    background-color: var(--line);
+    width: 100% !important; 
+    background-color: var(--line-second);
      height: 2px
 }
 .footer_page{
@@ -21,5 +24,12 @@ background-color: var(--second-primary);
     .footer_page  .s-2{
         width: 125%;
         margin-left: -10%;
+    }
+    .kweeshalogo{
+        width: 40% !important;
+    }
+    .navbar-toggler{
+        margin-left: 80%;
+        margin-top: -10%;
     }
 }

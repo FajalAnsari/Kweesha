@@ -55,7 +55,7 @@ const Leave_us = () => {
   <div class="col-md-12 mt-5 ">
     <button
       type="submit"
-      class=" mt-2 mb-5 signup w-25 btn-regi"
+      class=" mt-2 mb-5 signup w-25 btn-regi text-white fw-bolder"
     >
       Register Now
     </button>
