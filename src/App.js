@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Navbar from './components/common/Navbar';
 import Hero from './components/Hero/Hero';
@@ -16,6 +17,16 @@ function App() {
          <Footer />
        </Router>
     </>
+=======
+
+
+import Home from './components/Home_page/Home';
+function App() {
+  return (
+    <div className="App">
+<Home />
+    </div>
+>>>>>>> origin/boby
   );
 }
 

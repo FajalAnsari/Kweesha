@@ -1,4 +1,5 @@
 :root{
+<<<<<<< HEAD
   --primary:#4CAB65;
   --second-primary: #f3f9f5;
   --third-primary:  #909090;
@@ -13,3 +14,20 @@
 body{
   background-color: var(--bg-third-secondary) !important;
 }
+=======
+  --bg-green-900:#4CAB65;
+
+  --text-black-900 : #4E555F;
+  --text-black-300:  #909090;
+  --text-black-700: #123151;
+  --text-green-700:#34A853;
+ --background: linear-gradient(rgba(173, 223, 185, 0.281), rgba(173, 223, 185, 0.103));
+
+  --text-white-700: #FFFFFF;
+  --bg-contact:#F5F5F5;
+
+}
+*{
+  font-family: 'Concert One', cursive;
+}
+>>>>>>> origin/boby

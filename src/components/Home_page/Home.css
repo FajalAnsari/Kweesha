@@ -1,0 +1,57 @@
+
+.btn{
+    background-color: var(--bg-green-900);
+    color: var(--text-white-700);
+}
+
+/* description style */
+.desc .heading{
+    color: var(--text-black-900);
+     
+    font-size: 20px;
+
+
+}
+/* .heading{
+    font-family: sans-serif !important;
+} */
+
+.title{
+    color: var(--text-green-700);
+    font-family: 'Outfit', sans-serif;
+   
+}
+.main:nth-child(even){
+    background: var(--background);
+ 
+}
+.img {
+   
+    width: 60% !important;
+    float: right;
+    
+}
+#box{
+    height: 20% !important;
+    
+}
+.desc {
+    font-family: 'Outfit', sans-serif;
+}
+/* button style */
+.learn_more{
+    font-family: 'Outfit', sans-serif; 
+}
+
+/* media query  */
+@media screen and (max-width: 800px) {
+   .data{
+    justify-content: center;
+    
+   }
+   .img{
+    text-align: center;
+
+    width: 100%;
+   }
+  }
