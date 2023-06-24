@@ -37,7 +37,7 @@
  background-color: var(--primary);
  border-color: var(--primary);
 }
-.leave_us .border-grays{
+.border-grays{
   border: 1px solid  var(--third-primary) !important;
 }
 

@@ -1,5 +1,6 @@
 import React from 'react'
-import Leave_us from '../Contect_Us/Leave_us';
+import Leave_us from '../Leave_Us/Leave_us';
+import Home from "../Home_page/Home"
 import "./Hero.css";
 
 const Hero = () => {
@@ -15,6 +16,7 @@ const Hero = () => {
       </div>
 
       <Leave_us />
+      <Home />
     </>
   )
 }
