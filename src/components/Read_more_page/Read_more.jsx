@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Read_more.css";
+
 import kweesha_home_logo from "../../images/kweesha_home_logo.svg";
 const Read_more = () => {
   return (
@@ -11,7 +12,7 @@ const Read_more = () => {
           <p className='read_desc'>
 
           </p>
-          
+
         </div>
     </div>
   )
