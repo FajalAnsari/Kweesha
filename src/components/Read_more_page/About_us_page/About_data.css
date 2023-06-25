@@ -1,0 +1,27 @@
+.about_data{
+    background:var(--read-more-bg);  
+}
+.about_data p {
+    color: var(--text-black-900); 
+    background-color: var(--read_more_bg);
+ }
+ .about_data .read_title{
+     color: var(--bg-green-900);
+ }
+ .about_data .read_desc{
+     color: var(--read_data);
+     font-family: 'Outfit', sans-serif;
+     width: 70%;
+ }
+ .about_data .about_button{
+    background-color: var(--primary);
+    width: 12%;
+  
+    
+ }
+ .about_data .arrow{
+  
+    font-size: 50px;
+    color: white;
+
+ }
