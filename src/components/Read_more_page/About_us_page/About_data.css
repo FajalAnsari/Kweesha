@@ -13,18 +13,36 @@
      font-family: 'Outfit', sans-serif;
      width: 70%;
  }
- .about_data .about_button{
-  
-    
-       width: 20%;
-       background-color: var(--bg-green-900);
-    
-  
-    
+ .about_button{    
+       width: 10% !important;
+       height: 10px !important;
+       padding-top: -0.50%;
+       padding-bottom: 4.50%;
+       background-color: var(--bg-green-900) !important; 
  }
+ .about_buttons{    
+    width: 240% !important;
+    height: 60px !important;
+    background-color: var(--bg-green-900) !important; 
+}
+.nows{
+    margin-top: 15%;
+}
+.about_buttonss{    
+    width: 140% !important;
+    height: 60px !important;
+    margin-left: 90% !important;
+    background-color: var(--bg-green-900) !important; 
+}
  .about_data .arrow{
   
-    font-size: 50px;
+    font-size: 40px;
     color: white;
 
+ }
+ .about_data h1{
+    font-family: 'Concert One', cursive;
+ }
+ .about_data h2{
+    font-family: 'Concert One', cursive;
  }

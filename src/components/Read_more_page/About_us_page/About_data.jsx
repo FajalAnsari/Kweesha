@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 import "./About_data.css";
 const About_data = () => {
   return (
-    <div className='about_data'>
+    <div className='about_data p-5'>
         <div className='container'>
-        <p className='fs-4 text-center p-4'>ABOUT US</p>
+        <h1 className='text-center p-4  mt-5'>ABOUT US</h1>
           <Kweesha_icon />
       <h2 className='text-center read_title mt-5'>Empowering Business Growth through Tailored Solutions</h2>
       <div className='justify-content-center'>
@@ -19,10 +19,8 @@ We harness our expertise in finance, technology, science, and psychology to devi
 
       </p>
       </div>
-      <div className=' mt-4'>
-      <Link to='/'><p className='about_button text-center text-white fw-bold'><i class="bi bi-arrow-left-short arrow"></i></p></Link>
+      <Link to='/'><p className='about_button text-center text-white fw-bold mx-auto mt-5'><i class="bi bi-arrow-left-short arrow"></i></p></Link>
       </div>
-        </div>
 
     </div>
   )
