@@ -6,6 +6,9 @@
 border: 1px solid var(--bg-green-900);
 border-radius: 23px;
 }
+.contact_us{
+    padding: 7%;
+}
 .contact_us .des {
     color: var(--text-black-300);
     font-family: 'Outfit', sans-serif;

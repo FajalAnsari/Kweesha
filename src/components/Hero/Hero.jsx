@@ -15,8 +15,9 @@ const Hero = () => {
         <button className='btns text-white'>Get In Touch</button>
       </div>
 
-      <Leave_us />
+     
       <Home />
+      <Leave_us />
     </>
   )
 }

@@ -18,7 +18,6 @@
   color: var(--third-primary) !important;
 }
 
-
 .leave_us .selct{
   outline: 0 !important;
   border-width: 0 0 1px !important;
@@ -34,11 +33,11 @@
   width: 15%;
   height: 50px;
  margin-left: 38%;
- background-color: var(--primary);
- border-color: var(--primary);
+ background-color: var(--bg-green-900);
+ border-color: var(--bg-green-900);
 }
 .border-grays{
-  border: 1px solid  var(--third-primary) !important;
+  border: 1px solid  var(--line-second) !important;
 }
 
 .leave_us input[type="file"]::file-selector-button {

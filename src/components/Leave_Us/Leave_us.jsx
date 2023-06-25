@@ -1,11 +1,13 @@
 import React from 'react';
 import "./Leave_Us.css";
+import kweesha_home_logo from "../../images/kweesha_home_logo.svg";
 
 const Leave_us = () => {
   return (
     <>
     <div className="leave_us p-5">
       <h3 className='text-center p-4'>LEAVE US A MESSAGE!</h3>
+      <div className='text-center'><img src={kweesha_home_logo} className='mb-5' alt='kweesha_icon'></img></div>
       <div className="container">
        <div className="shadow form-container forms-bg  mb-4 w-75 mx-auto p-5">
 
