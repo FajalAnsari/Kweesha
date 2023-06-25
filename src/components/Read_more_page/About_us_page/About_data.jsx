@@ -1,5 +1,6 @@
 import React from 'react'
 import Kweesha_icon from '../../common/Kweesha_icon'
+import { Link } from 'react-router-dom';
 import "./About_data.css";
 const About_data = () => {
   return (
@@ -18,8 +19,8 @@ We harness our expertise in finance, technology, science, and psychology to devi
 
       </p>
       </div>
-      <div className='mx-auto mt-4'>
-      <button className='about_button'><i class="bi bi-arrow-left-short arrow"></i></button>
+      <div className=' mt-4'>
+      <Link to='/'><p className='about_button text-center text-white fw-bold'><i class="bi bi-arrow-left-short arrow"></i></p></Link>
       </div>
         </div>
 

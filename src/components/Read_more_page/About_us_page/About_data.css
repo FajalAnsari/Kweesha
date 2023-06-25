@@ -14,8 +14,11 @@
      width: 70%;
  }
  .about_data .about_button{
-    background-color: var(--primary);
-    width: 12%;
+  
+    
+       width: 20%;
+       background-color: var(--bg-green-900);
+    
   
     
  }
