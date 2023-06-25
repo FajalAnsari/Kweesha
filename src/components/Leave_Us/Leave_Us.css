@@ -1,0 +1,81 @@
+.leave_us{
+  background-color: var(--line);
+}
+.leave_us .forms-bg{
+  background-color: var(--forth-primary);
+  border-radius: 2px;
+ width: 85%;
+}
+.leave_us .inputs{
+ background-color: var( --forth-primary) !important;
+}
+.leave_us input[placeholder], [placeholder], *[placeholder] {
+  color: var(--primary) !important;
+}
+.leave_us input::placeholder {
+  color: var(--third-primary) !important;
+}
+.leave_us textarea::placeholder {
+  color: var(--third-primary) !important;
+}
+.leave_us h1{
+  font-family: 'Concert One', cursive;
+}
+.leave_us .selct{
+  outline: 0 !important;
+  border-width: 0 0 1px !important;
+  border-color: var(--third-primary) !important;
+  color: var(--third-primary) !important;
+}
+.leave_us .selct:focus {
+  border-color: var(--third-primary) !important;
+  outline: 1px dotted var(--third-primary) !important;
+}
+
+.leave_us .btn-regi{
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  padding-top: 1.35%;
+  padding-bottom: 1.35%;
+ margin-left: 38%;
+ background-color: var(--bg-green-900);
+ border-color: var(--bg-green-900);
+}
+.border-grays{
+  border: 1px solid  var(--line-second) !important;
+}
+
+.leave_us input[type="file"]::file-selector-button {
+  outline: 0;
+  color:var(--third-primary);
+  border-width: 0 0 0px !important;
+  background-color: var(--secondary);
+}
+.leave_us input[type="file"]:hover::file-selector-button {
+  background-color: var(--secondary) !important;
+}
+@media only screen and (max-width: 540px) {
+.forms-bg{
+  width: 100% !important;
+  padding: 0% !important;
+  margin-top: 15px;
+}
+.btn-law{
+  width: 30% !important;
+}
+.btns-formssec{
+  margin-left: 0% !important;
+}
+.btn-regi{
+  width: 60% !important;
+  margin-left: 18% !important;
+  padding-top: 4.35% !important;
+  padding-bottom: 4.35% !important;
+}
+.form-sectionss{
+  height: 990px;
+}
+
+
+}
+
