@@ -38,7 +38,12 @@ const Navbar = () => {
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link  fs-5 me-4" to="">
-                    Pages
+                    Solutions
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link  fs-5 me-4" to="">
+                    Careers
                   </Link>
                 </li>
                 <li className="nav-item">
