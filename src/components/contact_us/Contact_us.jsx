@@ -4,7 +4,7 @@ import kweesha_home_logo from "../../images/kweesha_home_logo.svg";
 const Contact_us = () => {
   return (
     <div className='contact_us'>
-    <div className='container  p-4'>
+    <div className='container  paddings_contus'>
         <h2 className='text-center'>CONTACT US</h2>
         <div className='text-center'><img src={kweesha_home_logo} className='mt-2 ' alt='kweesha_icon'></img></div>
         <div className='row mt-4'>
