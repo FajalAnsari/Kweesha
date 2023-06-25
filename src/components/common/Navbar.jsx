@@ -10,9 +10,9 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-lg navbar-light bg-white">
           <div className="container">
            
-            <Link className="navbar-brand ms-3 " to="/">
-            <img src="kweesha_logo.png" alt="kweesha_logo" className="w-75"/>
-            </Link>
+            <span className="navbar-brand">
+            <img src="kweesha_logo.png" alt="kweesha_logo" className="kweeshalogo w-75 navbar-brand"/>
+            </span>
             <button
               className="navbar-toggler"
               type="button"
@@ -25,24 +25,24 @@ const Navbar = () => {
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul className="navbar-nav ms-auto mb-2 mt-4 mb-lg-0">
+              <ul className="navbar-nav ms-auto mb-2 mt-2 mb-lg-0">
                 <li className="nav-item">
-                  <Link className="nav-link active" aria-current="page" to="/">
+                  <Link className="nav-link active fs-5" aria-current="page" to="/">
                     Home
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="">
+                  <Link className="nav-link  fs-5" to="">
                     About Us
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="">
+                  <Link className="nav-link  fs-5" to="">
                     Pages
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="">
+                  <Link className="nav-link  fs-5" to="">
                     Contact Us
                   </Link>
                 </li>

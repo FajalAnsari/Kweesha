@@ -1,7 +1,7 @@
 import React from 'react'
 import { homepage } from '../../Load_data/data'
 import "./Home.css";
-import kweesha_home_logo from "../../images/kweesha_home_logo.svg";
+
 import Kweesha_icon from '../common/Kweesha_icon';
 import Contact_us from '../contact_us/Contact_us';
 import { Link } from 'react-router-dom';
@@ -25,7 +25,7 @@ const Home = () => {
                   <h5 className='fs-4 title w-75 text-start'>{data.title}</h5>
                   <p className='fs-6 mt-4 desc text-justify w-75 text-start'>{data.description}</p>
                   <div className='float-start border-0'>
-                  <Link to={data.url}><button className='btn fs-6 learn_more'>Learn more</button></Link>
+                 <Link to={data.url}> <button className='btn btnss fs-6 learn_more'>Learn more</button></Link>
                   </div>
     
                 </div>

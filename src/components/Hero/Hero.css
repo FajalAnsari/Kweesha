@@ -21,3 +21,24 @@
 .Hero_Page h1{
     margin-left: -45%;
 }
+@media only screen and (max-width: 540px) {
+    .Hero_Page h1{
+        margin-left: -2%;
+        font-size: 26.5px;
+    }
+    .Hero_Page p{
+        width: 95%;
+        margin-left: 1%;
+        font-size: 17px !important;
+    }
+    .Hero_Page .btns{
+        width: 38%;
+        height: 9%;
+        background-color: var(--second-secondary);
+        border-color: var(--second-secondary);
+        margin-left: -57%;
+    } 
+    .Hero_Page{
+        Height:50vh;
+      }
+}
