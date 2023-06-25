@@ -6,8 +6,8 @@ const Navbar = () => {
   return (
     <>
     
-     <header className="p-2  shadow">
-        <nav className="navbar navbar-expand-lg navbar-light bg-white">
+     <header className="p-2 fixed shadow">
+        <nav className="navbar navbar-expand-lg fixed-top navbar-light bg-white">
           <div className="container">
            
             <span className="navbar-brand">
@@ -27,17 +27,17 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav ms-auto mb-2 mt-2 mb-lg-0">
                 <li className="nav-item">
-                  <Link className="nav-link active fs-5" aria-current="page" to="/">
+                  <Link className="nav-link active fs-5  me-4" aria-current="page" to="/">
                     Home
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link  fs-5" to="">
+                  <Link className="nav-link  fs-5 me-4" to="">
                     About Us
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link  fs-5" to="">
+                  <Link className="nav-link  fs-5 me-4" to="">
                     Pages
                   </Link>
                 </li>
