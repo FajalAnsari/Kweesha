@@ -7,15 +7,29 @@ border: 1px solid var(--bg-green-900);
 border-radius: 23px;
 }
 .contact_us{
-    padding: 7%;
+    padding: 7% !important;
 }
 .contact_us .des {
     color: var(--text-black-300);
     font-family: 'Outfit', sans-serif;
 }
-.contact_us h2{
+.contact_us h1{
     color: var(--text-black-700);
+    font-family: 'Concert One', cursive;
     
+}
+.contact_us .f-cons{
+    background-color:#ffffffd2;
+    border:1px solid var(--bg-green-900);    
+    height:50px;
+    margin-top: 35px !important;
+    font-weight: 700;
+    font-size: 30px;
+    border-radius:50%;
+    margin-left: 10px;
+    padding-top: 4% !important;
+    padding-left: 12%;
+    width:50px;
 }
 .contact_us{
     background-color: var(--bg-contact);
@@ -29,4 +43,20 @@ border-radius: 23px;
     font-family: 'Outfit', sans-serif; 
     font-size: 95%;
     
+}
+@media only screen and (max-width: 540px) {
+.cc{
+    width: 200% !important;
+    margin-left: -68%;
+}
+.maps{
+    width: 200% !important;
+    margin-left: -68%;
+    margin-top: 25px !important;
+    border-radius: 5%;
+}
+.sk{
+margin-left: -25px !important;
+margin-top: -10% !important;
+}
 }

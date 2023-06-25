@@ -1,16 +1,15 @@
 
 .btnss{
-    background-color: var(--bg-green-900);
-    color: var(--text-white-700);
+  padding-top: 1.35%;
+  padding-bottom: 1.35%;
+ width: 20%;
+ background-color: var(--bg-green-900);
 }
 
 /* description style */
-.desc .heading{
+.heading{
     color: var(--text-black-900);
-     
-    font-size: 20px;
-
-
+    font-family: 'Concert One', cursive;
 }
 /* .heading{
     font-family: sans-serif !important;
@@ -27,7 +26,7 @@
 }
 .img {
    
-    width: 60% !important;
+    width: 70% !important;
     float: right;
     
 }
@@ -51,7 +50,35 @@
    }
    .img{
     text-align: center;
-
     width: 100%;
    }
+  }
+
+  @media only screen and (max-width: 540px) {
+    .img {
+        width: 115% !important;   
+    }
+    .mobres{
+     margin-left: 22%;
+    }
+    .title{
+        width: 110% !important;
+        margin-top: 15px;
+        text-align: justify !important;
+        margin-left: -5%;
+        font-size: 16px !important;
+    }
+    .desc{
+        width: 110% !important;
+        text-align: justify !important;
+        margin-left: -5%;
+        font-size: 14px !important;
+    }
+    .btnss{
+        padding-top: 3.35%;
+        padding-bottom: 3.35%;
+       width: 40%;
+       margin-left: -5%;
+       background-color: var(--bg-green-900);
+      }
   }

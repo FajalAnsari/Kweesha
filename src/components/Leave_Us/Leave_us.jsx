@@ -1,15 +1,16 @@
 import React from 'react';
 import "./Leave_Us.css";
+import { Link } from 'react-router-dom';
 import kweesha_home_logo from "../../images/kweesha_home_logo.svg";
 
 const Leave_us = () => {
   return (
     <>
     <div className="leave_us p-5">
-      <h3 className='text-center p-4'>LEAVE US A MESSAGE!</h3>
+      <h1 className='text-center p-4'>LEAVE US A MESSAGE!</h1>
       <div className='text-center'><img src={kweesha_home_logo} className='mb-5' alt='kweesha_icon'></img></div>
       <div className="container">
-       <div className="shadow form-container forms-bg  mb-4 w-75 mx-auto p-5">
+       <div className="shadow form-container forms-bg  mb-4 mx-auto p-5">
 
 <form class="row g-3 me-4 mx-4 mt-1">
   <div class="col-md-6">
@@ -55,12 +56,12 @@ const Leave_us = () => {
               ></textarea>
             </div>
   <div class="col-md-12 mt-5 ">
-    <button
+    <butto
       type="submit"
-      class=" mt-2 mb-5 signup w-25 btn-regi text-white fw-bolder"
+      class=" mt-2 mb-5 signup w-25 btn-regi text-center text-white fw-bolder"
     >
       Register Now
-    </button>
+    </butto>
   </div>
 </form>
 </div>

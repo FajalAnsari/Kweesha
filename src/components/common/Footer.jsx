@@ -29,16 +29,16 @@ const Footer = () => {
                       className="mb-3 mt-1 d-inline-block mx-auto footer_com"
                     />
                     <p>
-                      <Link to="/" className="text-dark text-decoration-none">Home</Link>
+                      <Link to="/" className="text-dark text-decoration-none p1">Home</Link>
                     </p>
                     <p>
-                      <Link to="/about" className="text-dark text-decoration-none">About</Link>
+                      <Link to="/about" className="text-dark text-decoration-none p1">About</Link>
                     </p>
                     <p>
-                      <Link to="/contect" className="text-dark text-decoration-none">Contact</Link>
+                      <Link to="/contect" className="text-dark text-decoration-none p1">Contact</Link>
                     </p>
                     <p>
-                      <Link to="/career" className="text-dark text-decoration-none">Career</Link>
+                      <Link to="/career" className="text-dark text-decoration-none p1">Career</Link>
                     </p>
                   </div>
 
@@ -51,16 +51,16 @@ const Footer = () => {
                       className="mb-3 mt-1 d-inline-block mx-auto footer_com"
                     />
                     <p>
-                      <Link to="https://www.worldmodelhunt.com/" className="text-dark text-decoration-none">World Model Hunt</Link>
+                      <Link to="https://www.worldmodelhunt.com/" className="text-dark text-decoration-none p1">World Model Hunt</Link>
                     </p>
                     <p>
-                      <Link to="https://wmhindia.com/" className="text-dark text-decoration-none">WMHindia</Link>
+                      <Link to="https://wmhindia.com/" className="text-dark text-decoration-none p1">WMHindia</Link>
                     </p>
                     <p>
-                      <Link to="https://difm.llc/" className="text-dark text-decoration-none">DIFM LLC</Link>
+                      <Link to="https://difm.llc/" className="text-dark text-decoration-none p1">DIFM LLC</Link>
                     </p>
                     <p>
-                      <Link to="https://laymanlitigation.com/" className="text-dark text-decoration-none">Layman litigation</Link>
+                      <Link to="https://laymanlitigation.com/" className="text-dark text-decoration-none p1">Layman litigation</Link>
                     </p>
                   </div>
 
@@ -73,16 +73,16 @@ const Footer = () => {
                       className="mb-3 mt-1 d-inline-block mx-auto footer_com"
                     />
                     <p>
-                      <Link to="employwoman.com" className="text-dark text-decoration-none">Employee</Link>
+                      <Link to="employwoman.com" className="text-dark text-decoration-none p1">Employee</Link>
                     </p>
                     <p>
-                      <Link to="" className="text-dark text-decoration-none">Agreement </Link>
+                      <Link to="" className="text-dark text-decoration-none p1">Agreement </Link>
                     </p>
                     <p>
-                      <Link to="" className="text-dark text-decoration-none">E-sign</Link>
+                      <Link to="" className="text-dark text-decoration-none p1">E-sign</Link>
                     </p>
                     <p>
-                      <Link to="omfg.pro" className="text-dark text-decoration-none">Omfg</Link>
+                      <Link to="omfg.pro" className="text-dark text-decoration-none p1">Omfg</Link>
                     </p>
                   </div>
 
