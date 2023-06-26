@@ -25,6 +25,11 @@
     height: 50px !important;
     background-color: var(--bg-green-900) !important; 
 }
+.about_button:hover,
+.about_buttons:hover,
+.about_buttonss:hover{
+    background: var( --bg-hover);
+}
 .nows{
     margin-top: 15%;
 }

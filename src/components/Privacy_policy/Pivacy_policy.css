@@ -1,0 +1,9 @@
+.privacy_data{
+    background:var(--read-more-bg);  
+}
+.privacy_data h5{
+    margin-left: 12.5%;
+}
+.privacy_data p{
+    text-align: justify;
+}

@@ -21,8 +21,8 @@ const About_us = () => {
                  <img src={kweesha_about} className='img me-5' alt='home_page'></img>
                 </div>
                 <div className='col-lg-6 col-12 data'>
-                  <h5 className='fs-4 title w-75 text-start'>A Think Tank for Problem-Solving, Diversity, and Sustainability in Business</h5>
-                  <p className='fs-6 mt-4 desc text-justify w-75 text-start'>Founded by Sitanshu Srivastava in 2023, Kweesha Solutions is a think tank serving businesses of all sizes and sectors. Our diverse operations, including Kweesha Capital, Cosmetics, and Consulting, prioritize problem-solving, diversity, and sustainability.
+                  <h5 className='fs-4 title w-75 text-start '>A Think Tank for Problem-Solving, Diversity, and Sustainability in Business</h5>
+                  <p className='fs-6 mt-4 desc text-justify w-75 text-start justi'>Founded by Sitanshu Srivastava in 2023, Kweesha Solutions is a think tank serving businesses of all sizes and sectors. Our diverse operations, including Kweesha Capital, Cosmetics, and Consulting, prioritize problem-solving, diversity, and sustainability.
                    <br /><br />
                    We analyze, solve, and innovate using finance, technology, science, and psychology for operational efficiency, financial robustness, and sustainable growth.</p>
                   <div className='border-0'>
