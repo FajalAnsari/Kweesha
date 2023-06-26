@@ -39,7 +39,7 @@
 @media only screen and (max-width: 540px) {
     .Hero_Page h1{
         margin-left: -2%;
-        font-size: 26.5px;
+        font-size: 24.5px;
     }
     .Hero_Page p{
         width: 95%;
@@ -58,6 +58,7 @@
         Height:50vh;
       }
       .Hero_Page .kweesha1_herologo{
+        margin-top: 50px;
         width: 32%;
       }
 }
