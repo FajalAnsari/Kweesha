@@ -109,20 +109,22 @@ const Footer = () => {
                   <p className='btn text-success btn-floating m-1 '>Follow:</p>
 
                   <Link
-                    className="m-1 text-dark ms-2 icon"><i className="bi bi-instagram grow"></i></Link>
+                    className="btn  btn-floating m-1 text-dark icon"
+                    role="button"
+                  ><i className="bi bi-instagram"></i></Link>
 
                   <Link
-                    className="m-1 text-dark ms-3 icon"
-                    
-                  ><i className="bi bi-facebook icon"></i></Link>
+                    className="btn btn-floating m-1 text-dark icon"
+                    role="button"
+                  ><i className="bi bi-facebook"></i></Link>
 
                   <Link
-                    className="m-1 text-dark ms-3 icon"
-                    
+                    className="btn btn-floating m-1 text-dark icon"
+                    role="button"
                   ><i className="bi bi-twitter"></i></Link>
                   <Link
-                    className="m-1 text-dark ms-3 icon"
-                    
+                    className="btn  btn-floating m-1 text-dark icon"
+                    role="button"
                   ><i className="bi bi-pinterest"></i></Link>
                 </div>
               </div>

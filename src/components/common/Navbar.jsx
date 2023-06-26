@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./common.css";
 
@@ -47,6 +47,7 @@ navItems.forEach(function (ele) {
                   <Link className="nav-link  fs-5 me-4" to="" onClick={()=> document.getElementById("box1").scrollIntoView()}>
                     About Us
                   </Link>
+                  
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link  fs-5 me-4" to="" onClick={()=> document.getElementById("box2").scrollIntoView()}>
