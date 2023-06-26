@@ -42,7 +42,7 @@ const Contact_us = () => {
           </div>
           <div className='col-lg-6 col-sm-6'>
             {/* Map */}
-            <div className="">
+            <div className="qq">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14234.678331540266!2d81.0018291!3d26.882237!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399be34af2e0d36f%3A0x13fc545254663b45!2sDo%20It%20For%20Me%20LLC!5e0!3m2!1sen!2sin!4v1687763412150!5m2!1sen!2sin"
                 width="85%"
