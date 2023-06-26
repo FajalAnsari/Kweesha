@@ -3,6 +3,18 @@ import { Link } from "react-router-dom";
 import "./common.css";
 
 const Navbar = () => {
+
+  var navItems = document.querySelectorAll(".nav-link");
+navItems.forEach(function (ele) {
+  ele.addEventListener("click", function (event) {
+    event.preventDefault();
+    navItems.forEach(function (ele) {
+      ele.classList.remove("active");
+    });
+    this.classList.add("active");
+  });
+});
+  
   return (
     <>
     

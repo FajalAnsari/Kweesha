@@ -7,6 +7,7 @@
   --text-black-900 : #4E555F;
   --text-black-300:  #909090;
   --text-black-700: #123151;
+  --bg-hover: linear-gradient(rgba(78, 85, 95, 1),rgba(76, 171, 101, 1));
   --text-green-700:#34A853;
  --background: linear-gradient(rgba(173, 223, 185, 0.281), rgba(173, 223, 185, 0.103));
    --read_data:#161D27;
@@ -38,8 +39,8 @@ body{
 	border-radius: 10px;
 	background-color: #F5F5F5 !important;
 	background-image: -webkit-linear-gradient(top,
-  rgb(118, 245, 148),
-  rgb(121, 228, 146));
+  var(--bg-green-900),
+  var(--bg-green-900));
 }
 #btn-back-to-top {
   position: fixed;
@@ -72,4 +73,7 @@ html{
   font-size: 30px;
   font-weight: 900;
   color: #161D27;
+}
+.active {
+  color: green !important;
 }

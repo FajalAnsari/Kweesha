@@ -41,6 +41,9 @@
  background-color: var(--bg-green-900);
  border-color: var(--bg-green-900);
 }
+.leave_us .btn-regi:hover{
+  background: var( --bg-hover);
+}
 .border-grays{
   border: 1px solid  var(--line-second) !important;
 }

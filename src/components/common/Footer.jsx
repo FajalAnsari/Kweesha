@@ -4,6 +4,7 @@ import { footer_logo } from '../../images';
 import "./common.css";
 
 const Footer = () => {
+  
   return (
     <>
 
@@ -15,7 +16,7 @@ const Footer = () => {
                 <div className="row mt-3">
                   <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                     <img src={footer_logo} alt="kweesha_logo" className='w-75' />
-                    <p className="text-dark text-decoration-none mt-4">Head Office Address : <br />
+                    <p className="text-dark text-decoration-none mt-4"><b>Head Office Address : </b><br />
                       6Navneet Vihar, Sector 9, Indira
                       <br />
                       Nagar, Lucknow, Uttar Pradesh
@@ -97,7 +98,7 @@ const Footer = () => {
               <div className="row d-flex align-items-center">
                 <div className="col-md-7 col-lg-8 text-center text-md-start">
                   <div className="p-3 ps-1">
-                    Copyright © <span className='text-success'>Kweesha Pvt. Ltd.</span> | Powered by <span className='text-success'>Do iT For Me LCC</span>
+                    Copyright © <span className='text-success'>Kweesha Pvt. Ltd.</span> | Powered by <Link to="https://difm.llc/" className='text-success text-decoration-none'>Do iT For Me LCC</Link>
                   </div>
                 </div>
 
@@ -105,22 +106,22 @@ const Footer = () => {
                   <p className='btn text-success btn-floating m-1 '>Follow:</p>
 
                   <Link
-                    className="btn  btn-floating m-1 text-dark"
-                    role="button"
+                    className="m-1 text-dark ms-2"
+                    
                   ><i className="bi bi-instagram"></i></Link>
 
                   <Link
-                    className="btn btn-floating m-1 text-dark"
-                    role="button"
+                    className="m-1 text-dark ms-3"
+                    
                   ><i className="bi bi-facebook"></i></Link>
 
                   <Link
-                    className="btn btn-floating m-1 text-dark"
-                    role="button"
+                    className="m-1 text-dark ms-3"
+                    
                   ><i className="bi bi-twitter"></i></Link>
                   <Link
-                    className="btn  btn-floating m-1 text-dark"
-                    role="button"
+                    className="m-1 text-dark ms-3"
+                    
                   ><i className="bi bi-pinterest"></i></Link>
                 </div>
               </div>

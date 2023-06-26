@@ -34,6 +34,9 @@
     margin: 20px 0;
     display: inline-block;
 }
+.page_404 .link_404:hover{
+    background: var(--bg-hover);
+}
  .page_404 .contant_box_404{
      margin-top:-50px;
     }

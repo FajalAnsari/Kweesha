@@ -6,7 +6,8 @@ import kweesha_home_logo from "../../images/kweesha_home_logo.svg";
 const Leave_us = () => {
   return (
     <>
-    <div className="leave_us p-5">
+    <div className="leave_us p-5" id='live_us_page'>
+    <div className='mt-5'>
       <h1 className='text-center p-4'>LEAVE US A MESSAGE!</h1>
       <div className='text-center'><img src={kweesha_home_logo} className='mb-5' alt='kweesha_icon'></img></div>
       <div className="container">
@@ -64,6 +65,7 @@ const Leave_us = () => {
     </butto>
   </div>
 </form>
+</div>
 </div>
 </div>
 </div>

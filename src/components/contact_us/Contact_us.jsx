@@ -15,9 +15,9 @@ const Contact_us = () => {
                <div className='mt-5 f-cons'> <i class="bi bi-envelope-fill sk"></i></div>
                 </div>
                 <div className='col-lg-10'>
-                    <p className='cont fs-4 mb-1'>Contact Us</p>
+                    <p className='cont fs-5 mb-1 mt-1'>Contact Us</p>
                     <p className='w-75 des mb-1'>Please feel free to drop us a line. We will respond as soon as possible.</p>
-                    <div className='d-flex'>
+                    <div className='d-flex' onClick={()=> document.getElementById("live_us_page").scrollIntoView()}>
                     <h2 className='msg'>Leave a message </h2>
                     <i class="bi bi-arrow-right-circle ms-2"></i>
                     </div>
@@ -30,7 +30,7 @@ const Contact_us = () => {
                 <div className='mt-5 f-cons'><i class="bi bi-geo-alt sk"></i></div>
                 </div>
                 <div className='col-lg-10 col-sm-10'>
-                    <p className='cont fs-4 mb-1'>Visit us</p>
+                    <p className='cont fs-5 mb-1 mt-1'>Visit us</p>
 
                     <p className='des w-75 mb-1'>16Navneet Vihar, Sector 9, Indira Nagar, Lucknow, Uttar Pradesh 226021</p>
                     <div className='d-flex'>
@@ -44,14 +44,14 @@ const Contact_us = () => {
                     {/* Map */}
     <div className="">
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1.771070944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5335fabc2a66677f%3A0x8f85bd068d1afb8a!2s30%20N%20Gould%20St%2C%20Sheridan%2C%20WY%2082801%2C%20USA!5e0!3m2!1sen!2sin!4v1684734636299!5m2!1sen!2sin"
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14234.678331540266!2d81.0018291!3d26.882237!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399be34af2e0d36f%3A0x13fc545254663b45!2sDo%20It%20For%20Me%20LLC!5e0!3m2!1sen!2sin!4v1687763412150!5m2!1sen!2sin"
         width="85%"
         height="320"
         style={{marginTop:"-28px"}}
         allowFullScreen=""
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
-        className="rounded-[20px]  sm:h-[500px] -mt-4 w-[320px]  -ml-10 sm:ml-0 sm:w-full maps"
+        className="rounded-3 maps img-thumbnail"
       ></iframe>
     </div>
 

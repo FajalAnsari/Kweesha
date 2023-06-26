@@ -6,6 +6,8 @@ import { BrowserRouter as Router,Routes, Route} from 'react-router-dom';
 import Solutions_page from './components/Read_more_page/Solutions_page/Solutions_page';
 import Career_data from './components/Read_more_page/Career_data_page/Career_data';
 import Default_page from './components/Default_page/Default_page';
+import Term_condition from './components/Term_condition/Term_condition';
+import Privacy_policy from './components/Privacy_policy/Privacy_policy';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
       <Route path="/about" element={<About_data />} />
       <Route path="/solutions" element={<Solutions_page />} />
       <Route path="/careers" element={<Career_data />} />
+      <Route path="/terms" element={<Term_condition />} />
+      <Route path="/privacy" element={<Privacy_policy />} />
     </Routes>
      <Footer/>
   </Router>

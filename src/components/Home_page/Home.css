@@ -1,11 +1,15 @@
-
+.justi{
+    text-align: justify !important;
+}
 .btnss{
   padding-top: 1.35%;
   padding-bottom: 1.35%;
  width: 20%;
  background-color: var(--bg-green-900);
 }
-
+.btnss:hover{
+    background: var( --bg-hover);
+}
 /* description style */
 .heading{
     color: var(--text-black-900);
@@ -16,6 +20,9 @@
     color: var(--text-green-700);
     font-family: 'Outfit', sans-serif;
    
+}
+.careers-w{
+    width: 78%;
 }
 .solutions{
     background: var(--background);
