@@ -11,16 +11,13 @@
     color: var(--text-black-900);
     font-family: 'Concert One', cursive;
 }
-/* .heading{
-    font-family: sans-serif !important;
-} */
 
 .title{
     color: var(--text-green-700);
     font-family: 'Outfit', sans-serif;
    
 }
-.main:nth-child(even){
+.solutions{
     background: var(--background);
  
 }

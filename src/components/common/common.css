@@ -12,7 +12,7 @@
      height: 2px
 }
 .footer_page{
-background-color: var(--second-primary);
+    background: var(--background);
 }
  .p1:hover{
   color: var(--bg-green-900) !important;

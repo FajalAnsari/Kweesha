@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { footer_logo } from '../../images';
 import "./common.css";
 
 const Footer = () => {
@@ -13,7 +14,7 @@ const Footer = () => {
               <div className="container text-center text-md-start mt-5">
                 <div className="row mt-3">
                   <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                    <img src="kweesha_logo.png" alt="kweesha_logo" className='w-75' />
+                    <img src={footer_logo} alt="kweesha_logo" className='w-75' />
                     <p className="text-dark text-decoration-none mt-4">Head Office Address : <br />
                       6Navneet Vihar, Sector 9, Indira
                       <br />
@@ -35,10 +36,10 @@ const Footer = () => {
                       <Link to="/about" className="text-dark text-decoration-none p1">About</Link>
                     </p>
                     <p>
-                      <Link to="/contect" className="text-dark text-decoration-none p1">Contact</Link>
+                      <Link to="/" className="text-dark text-decoration-none p1">Contact</Link>
                     </p>
                     <p>
-                      <Link to="/career" className="text-dark text-decoration-none p1">Career</Link>
+                      <Link to="/careers" className="text-dark text-decoration-none p1">Career</Link>
                     </p>
                   </div>
 

@@ -13,10 +13,10 @@
   color: var(--primary) !important;
 }
 .leave_us input::placeholder {
-  color: var(--third-primary) !important;
+  color: var(--bg-green-900) !important;
 }
 .leave_us textarea::placeholder {
-  color: var(--third-primary) !important;
+  color: var(--bg-green-900) !important;
 }
 .leave_us h1{
   font-family: 'Concert One', cursive;

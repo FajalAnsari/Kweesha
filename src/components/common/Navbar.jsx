@@ -32,22 +32,22 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link  fs-5 me-4" to="">
+                  <Link className="nav-link  fs-5 me-4" to="" onClick={()=> document.getElementById("box1").scrollIntoView()}>
                     About Us
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link  fs-5 me-4" to="">
+                  <Link className="nav-link  fs-5 me-4" to="" onClick={()=> document.getElementById("box2").scrollIntoView()}>
                     Solutions
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link  fs-5 me-4" to="">
+                  <Link className="nav-link  fs-5 me-4" to="" onClick={()=> document.getElementById("box3").scrollIntoView()}>
                     Careers
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link  fs-5" to="">
+                  <Link className="nav-link  fs-5" to="" onClick={()=> document.getElementById("contact_us_page").scrollIntoView()}>
                     Contact Us
                   </Link>
                 </li>
