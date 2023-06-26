@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./common.css";
 
 const Navbar = () => {
+  useEffect(()=>{
+    window.scrollTo(0, 0);
+  })
   return (
     <>
     
@@ -32,22 +35,23 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link  fs-5 me-4" to="">
+                  <Link className="nav-link  fs-5 me-4" to="" onClick={()=>{document.getElementById("home_section").scrollIntoView();}}>
                     About Us
                   </Link>
+                  
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link  fs-5 me-4" to="">
+                  <Link className="nav-link  fs-5 me-4" to="#home_section"  onClick={() =>{window.scrollTo(0, 1300);}}>
                     Solutions
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link  fs-5 me-4" to="">
+                  <Link className="nav-link  fs-5 me-4" to="#home_section" onClick={() =>{window.scrollTo(0, 1950);}}>
                     Careers
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link  fs-5" to="">
+                  <Link className="nav-link  fs-5" to=""  onClick={() =>{document.getElementById("contact_us_page").scrollIntoView();}}>
                     Contact Us
                   </Link>
                 </li>

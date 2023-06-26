@@ -35,7 +35,7 @@ const Footer = () => {
                       <Link to="/about" className="text-dark text-decoration-none p1">About</Link>
                     </p>
                     <p>
-                      <Link to="/contect" className="text-dark text-decoration-none p1">Contact</Link>
+                      <Link to="" className="text-dark text-decoration-none p1" onClick={() =>{document.getElementById("contact_us_page").scrollIntoView();}}>Contact</Link>
                     </p>
                     <p>
                       <Link to="/career" className="text-dark text-decoration-none p1">Career</Link>
@@ -104,21 +104,21 @@ const Footer = () => {
                   <p className='btn text-success btn-floating m-1 '>Follow:</p>
 
                   <Link
-                    className="btn  btn-floating m-1 text-dark"
+                    className="btn  btn-floating m-1 text-dark icon"
                     role="button"
                   ><i className="bi bi-instagram"></i></Link>
 
                   <Link
-                    className="btn btn-floating m-1 text-dark"
+                    className="btn btn-floating m-1 text-dark icon"
                     role="button"
                   ><i className="bi bi-facebook"></i></Link>
 
                   <Link
-                    className="btn btn-floating m-1 text-dark"
+                    className="btn btn-floating m-1 text-dark icon"
                     role="button"
                   ><i className="bi bi-twitter"></i></Link>
                   <Link
-                    className="btn  btn-floating m-1 text-dark"
+                    className="btn  btn-floating m-1 text-dark icon"
                     role="button"
                   ><i className="bi bi-pinterest"></i></Link>
                 </div>

@@ -3,7 +3,7 @@ import "./Contact_us.css";
 import kweesha_home_logo from "../../images/kweesha_home_logo.svg";
 const Contact_us = () => {
   return (
-    <div className='contact_us'>
+    <div className='contact_us' id='contact_us_page'>
     <div className='container paddings_contus'>
         <h1 className='text-center'>CONTACT US</h1>
         <div className='text-center'><img src={kweesha_home_logo} className='mt-2 ' alt='kweesha_icon'></img></div>

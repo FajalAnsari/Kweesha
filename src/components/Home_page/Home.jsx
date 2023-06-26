@@ -8,12 +8,18 @@ const Home = () => {
    
   return (
     <>
- <div>
+    
+
+
+
+    
+ <div id='home_section' className='p-5'>
   
     {
         homepage.map((data)=>
         <div className='main p-5' id='box'>
             <div key={data.id} >
+
             <h1 className='text-center heading text-uppercase'>{data.heading}</h1>
           <Kweesha_icon/>
             <div className='row mt-5'>
@@ -35,6 +41,7 @@ const Home = () => {
      
 
     </div>
+    
     {/* contact us  */}
     <Contact_us />
     </>

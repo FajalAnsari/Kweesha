@@ -8,7 +8,8 @@ import Career_data from './components/Read_more_page/Career_data_page/Career_dat
 function App() {
   return (
   <Router>
-    <Navbar />        
+    <Navbar />
+           
      <Routes> 
       <Route path="/" element={<Hero />} />
       <Route path="/about_data" element={<About_data />} />
