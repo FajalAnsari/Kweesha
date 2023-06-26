@@ -2,10 +2,13 @@ import React, { useEffect } from 'react'
 import Kweesha_icon from '../../common/Kweesha_icon';
 import { Link } from 'react-router-dom';
 import "../About_us_page/About_data.css";
+
 const Solutions_page = () => {
-    useEffect(()=>{
-        window.scrollTo(0, 0);
-    })
+
+  useEffect(() =>{
+    window.scrollTo(0, 0);
+  });
+  
   return (
     <div className='about_data p-5'>
         <div className='container'>

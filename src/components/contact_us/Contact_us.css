@@ -18,6 +18,9 @@ border-radius: 23px;
     font-family: 'Concert One', cursive;
     
 }
+.maps{
+    height: 300px;
+}
 .contact_us .f-cons{
     background-color:#ffffffd2;
     border:1px solid var(--bg-green-900);    

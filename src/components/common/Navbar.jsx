@@ -3,9 +3,18 @@ import { Link } from "react-router-dom";
 import "./common.css";
 
 const Navbar = () => {
-  useEffect(()=>{
-    window.scrollTo(0, 0);
-  })
+
+  var navItems = document.querySelectorAll(".nav-link");
+navItems.forEach(function (ele) {
+  ele.addEventListener("click", function (event) {
+    event.preventDefault();
+    navItems.forEach(function (ele) {
+      ele.classList.remove("active");
+    });
+    this.classList.add("active");
+  });
+});
+
   return (
     <>
     
@@ -35,23 +44,23 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link  fs-5 me-4" to="" onClick={()=>{document.getElementById("home_section").scrollIntoView();}}>
+                  <Link className="nav-link  fs-5 me-4" to="" onClick={()=> document.getElementById("box1").scrollIntoView()}>
                     About Us
                   </Link>
                   
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link  fs-5 me-4" to="#home_section"  onClick={() =>{window.scrollTo(0, 1300);}}>
+                  <Link className="nav-link  fs-5 me-4" to="" onClick={()=> document.getElementById("box2").scrollIntoView()}>
                     Solutions
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link  fs-5 me-4" to="#home_section" onClick={() =>{window.scrollTo(0, 1950);}}>
+                  <Link className="nav-link  fs-5 me-4" to="" onClick={()=> document.getElementById("box3").scrollIntoView()}>
                     Careers
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link  fs-5" to=""  onClick={() =>{document.getElementById("contact_us_page").scrollIntoView();}}>
+                  <Link className="nav-link  fs-5" to="" onClick={()=> document.getElementById("contact_us_page").scrollIntoView()}>
                     Contact Us
                   </Link>
                 </li>

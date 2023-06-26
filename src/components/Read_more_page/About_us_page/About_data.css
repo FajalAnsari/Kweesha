@@ -21,22 +21,28 @@
        background-color: var(--bg-green-900) !important; 
  }
  .about_buttons{    
-    width: 240% !important;
-    height: 60px !important;
+    width: 248% !important;
+    height: 50px !important;
     background-color: var(--bg-green-900) !important; 
+}
+.about_button:hover,
+.about_buttons:hover,
+.about_buttonss:hover{
+    background: var( --bg-hover);
 }
 .nows{
     margin-top: 15%;
 }
 .about_buttonss{    
     width: 140% !important;
-    height: 60px !important;
+    /* height: 60px !important; */
+    padding: 15% !important;
     margin-left: 90% !important;
     background-color: var(--bg-green-900) !important; 
 }
  .about_data .arrow{
   
-    font-size: 40px;
+    font-size: 36px;
     color: white;
 
  }

@@ -1,8 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { footer_logo } from '../../images';
 import "./common.css";
 
 const Footer = () => {
+  
   return (
     <>
 
@@ -13,8 +15,8 @@ const Footer = () => {
               <div className="container text-center text-md-start mt-5">
                 <div className="row mt-3">
                   <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                    <img src="kweesha_logo.png" alt="kweesha_logo" className='w-75' />
-                    <p className="text-dark text-decoration-none mt-4">Head Office Address : <br />
+                    <img src={footer_logo} alt="kweesha_logo" className='w-75' />
+                    <p className="text-dark text-decoration-none mt-4"><b>Head Office Address : </b><br />
                       6Navneet Vihar, Sector 9, Indira
                       <br />
                       Nagar, Lucknow, Uttar Pradesh
@@ -27,19 +29,22 @@ const Footer = () => {
                     <h6 className="text-uppercase fw-bold text-success">Quick Link</h6>
                     <hr
                       className="mb-3 mt-1 d-inline-block mx-auto footer_com"
-                    />
+                    />               
+                   
                     <p>
-                      <Link to="/" className="text-dark text-decoration-none p1">Home</Link>
+                      <Link to="/careers" className="text-dark text-decoration-none p1">Careers</Link>
                     </p>
                     <p>
-                      <Link to="/about" className="text-dark text-decoration-none p1">About</Link>
+                      <Link to="/about" className="text-dark text-decoration-none p1">About Us</Link>
                     </p>
                     <p>
-                      <Link to="" className="text-dark text-decoration-none p1" onClick={() =>{document.getElementById("contact_us_page").scrollIntoView();}}>Contact</Link>
+                      <Link to="/terms_condition" className="text-dark text-decoration-none p1">Terms Condition</Link>
                     </p>
+                    
                     <p>
-                      <Link to="/career" className="text-dark text-decoration-none p1">Career</Link>
+                      <Link to="/privacy_policy" className="text-dark text-decoration-none p1">Privacy Policy</Link>
                     </p>
+                    
                   </div>
 
                   <div className="col-md-2 col-lg-2 col-xl-2 col-6 mx-auto mb-4 s-1">
@@ -96,7 +101,7 @@ const Footer = () => {
               <div className="row d-flex align-items-center">
                 <div className="col-md-7 col-lg-8 text-center text-md-start">
                   <div className="p-3 ps-1">
-                    Copyright © <span className='text-success'>Kweesha Pvt. Ltd.</span> | Powered by <span className='text-success'>Do iT For Me LCC</span>
+                    Copyright © <span className='text-success'>Kweesha Pvt. Ltd.</span> | Powered by <Link to="https://difm.llc/" className='text-success text-decoration-none'>Do iT For Me LCC</Link>
                   </div>
                 </div>
 
