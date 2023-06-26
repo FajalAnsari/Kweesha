@@ -18,12 +18,16 @@
   color: var(--bg-green-900) !important;
 }
 
-
-.m-1:hover i {
-    transform: scale(1.5) !important;
-    transition: all 0.3s linear;
+.icon{
+    transition: transform .2s;
+    
 }
 
+.icon:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
 
 
 @media only screen and (max-width: 540px) {

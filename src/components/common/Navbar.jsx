@@ -14,7 +14,7 @@ navItems.forEach(function (ele) {
     this.classList.add("active");
   });
 });
-  
+
   return (
     <>
     

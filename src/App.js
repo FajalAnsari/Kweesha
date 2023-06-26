@@ -14,7 +14,6 @@ function App() {
   <Router>
     <Navbar />        
      <Routes> 
-      {/* jkd jwkehrekw ejkr */}
       <Route path="/" element={<Hero />} />
       <Route path="/about_data" element={<About_data />} />
       <Route path="/solutions_data" element={<Solutions_page />} />
