@@ -92,7 +92,9 @@ html{
     font-size: 20px;
 
   }
-
+  .nav-link.active {
+    width: 25%;
+  }
 }
 
 .nav-link.active {
