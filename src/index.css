@@ -7,7 +7,7 @@
   --text-black-900 : #4E555F;
   --text-black-300:  #909090;
   --text-black-700: #123151;
-  --bg-hover: linear-gradient(rgba(78, 85, 95, 1),rgba(76, 171, 101, 1));
+  --bg-hover: linear-gradient(rgba(76, 171, 101, 1), rgba(78, 85, 95, 1));
   --text-green-700:#34A853;
  --background: linear-gradient(rgba(173, 223, 185, 0.281), rgba(173, 223, 185, 0.103));
    --read_data:#161D27;
@@ -91,4 +91,10 @@ html{
 
   }
 
+}
+
+.nav-link.active {
+  color: green;
+  border-bottom: 2px solid green;
+  transition: border-bottom 0.3s ease-in-out;
 }
