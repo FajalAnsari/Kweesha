@@ -19,13 +19,13 @@ const Leave_us = () => {
 
   const handleFullNameChange = (event) => {
     const { value } = event.target;
-  
+
     if (!/^[a-zA-Z]{3,}$/.test(value)) {
       setFullNameError('Please enter a valid full name');
     } else {
       setFullNameError('');
     }
-  
+
     setFullName(value);
   };
 
@@ -97,7 +97,7 @@ const Leave_us = () => {
       setSubjectError('Please enter a subject');
     }
 
-    if(!message) {
+    if (!message) {
       setMessageError('Please enter your message');
     }
 
