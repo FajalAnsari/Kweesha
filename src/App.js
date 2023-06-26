@@ -12,7 +12,8 @@ import Privacy_policy from './components/Privacy_policy/Privacy_policy';
 function App() {
   return (
   <Router>
-    <Navbar />        
+    <Navbar />
+           
      <Routes> 
       <Route path="/" element={<Hero />} />
       <Route path="/about_data" element={<About_data />} />

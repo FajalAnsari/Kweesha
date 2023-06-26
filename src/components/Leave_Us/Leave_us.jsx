@@ -104,7 +104,7 @@ const Leave_us = () => {
     // If all fields are valid, submit the form and show a success message
     if (fullName && email && phone && subject && message) {
       setIsSubmitted(true);
-      alert(`Thank you for leaving your message, ${fullName}! We will get back to you shortly.`);
+      alert(`Dear ${fullName},\nThank you for your message. We appreciate your interest and will respond to your inquiry as soon as possible.`);
     }
   };
 

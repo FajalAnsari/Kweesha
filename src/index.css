@@ -7,7 +7,7 @@
   --text-black-900 : #4E555F;
   --text-black-300:  #909090;
   --text-black-700: #123151;
-  --bg-hover: linear-gradient(rgba(78, 85, 95, 1),rgba(76, 171, 101, 1));
+  --bg-hover: linear-gradient(rgba(76, 171, 101, 1), rgba(78, 85, 95, 1));
   --text-green-700:#34A853;
  --background: linear-gradient(rgba(173, 223, 185, 0.281), rgba(173, 223, 185, 0.103));
    --read_data:#161D27;
@@ -17,8 +17,10 @@
    --read-more-bg: linear-gradient(rgba(151, 194, 163, 0.562), rgba(228, 197, 197, 0.884));
   
 }
+
 body{
   background-color: var(--bg-third-secondary) !important;
+  
 }
 
 #style-16::-webkit-scrollbar-track
@@ -81,7 +83,7 @@ html{
 @media only screen and (max-width: 540px) {
   #progress{
     bottom: 60px;
-    right: 30px;
+    right: 35px;
     height: 50px;
     width: 50px;
   }
@@ -91,4 +93,10 @@ html{
 
   }
 
+}
+
+.nav-link.active {
+  color: green;
+  border-bottom: 2px solid green;
+  transition: border-bottom 0.3s ease-in-out;
 }

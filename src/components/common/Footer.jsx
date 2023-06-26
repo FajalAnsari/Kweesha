@@ -16,7 +16,7 @@ const Footer = () => {
                 <div className="row mt-3">
                   <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                     <img src={footer_logo} alt="kweesha_logo" className='w-75' />
-                    <p className="text-dark text-decoration-none mt-4"><b>Head Office Address : </b><br />
+                    <p className="text-dark text-decoration-none mt-4"><b>Head Office Address </b><br />
                       6Navneet Vihar, Sector 9, Indira
                       <br />
                       Nagar, Lucknow, Uttar Pradesh
@@ -109,20 +109,22 @@ const Footer = () => {
                   <p className='btn text-success btn-floating m-1 '>Follow:</p>
 
                   <Link
-                    className="m-1 text-dark ms-2 icon"><i className="bi bi-instagram grow"></i></Link>
+                    className="btn  btn-floating m-1 text-dark icon"
+                    role="button"
+                  ><i className="bi bi-instagram"></i></Link>
 
                   <Link
-                    className="m-1 text-dark ms-3 icon"
-                    
-                  ><i className="bi bi-facebook icon"></i></Link>
+                    className="btn btn-floating m-1 text-dark icon"
+                    role="button"
+                  ><i className="bi bi-facebook"></i></Link>
 
                   <Link
-                    className="m-1 text-dark ms-3 icon"
-                    
+                    className="btn btn-floating m-1 text-dark icon"
+                    role="button"
                   ><i className="bi bi-twitter"></i></Link>
                   <Link
-                    className="m-1 text-dark ms-3 icon"
-                    
+                    className="btn  btn-floating m-1 text-dark icon"
+                    role="button"
                   ><i className="bi bi-pinterest"></i></Link>
                 </div>
               </div>

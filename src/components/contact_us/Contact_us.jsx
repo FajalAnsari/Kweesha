@@ -15,7 +15,7 @@ const Contact_us = () => {
                 <div className='mt-5 f-cons'> <i class="bi bi-envelope-fill sk"></i></div>
               </div>
               <div className='col-lg-10'>
-                <p className='cont fs-4 mb-1'>Contact Us</p>
+                <p className='cont fs-5 mb-1 mt-1'>Contact Us</p>
                 <p className='w-75 des mb-1'>Please feel free to drop us a line. We will respond as soon as possible.</p>
                 <div className='d-flex'>
                   <h2 className='msg'>Leave a message </h2>
@@ -30,7 +30,7 @@ const Contact_us = () => {
                 <div className='mt-5 f-cons'><i class="bi bi-geo-alt sk"></i></div>
               </div>
               <div className='col-lg-10 col-sm-10'>
-                <p className='cont fs-4 mb-1'>Visit us</p>
+                <p className='cont fs-5 mb-1 mt-1'>Visit us</p>
 
                 <p className='des w-75 mb-1'>16Navneet Vihar, Sector 9, Indira Nagar, Lucknow, Uttar Pradesh 226021</p>
                 <div className='d-flex'>
