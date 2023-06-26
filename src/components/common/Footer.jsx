@@ -29,19 +29,22 @@ const Footer = () => {
                     <h6 className="text-uppercase fw-bold text-success">Quick Link</h6>
                     <hr
                       className="mb-3 mt-1 d-inline-block mx-auto footer_com"
-                    />
+                    />               
+                   
                     <p>
-                      <Link to="/" className="text-dark text-decoration-none p1">Home</Link>
+                      <Link to="/careers" className="text-dark text-decoration-none p1">Careers</Link>
                     </p>
                     <p>
-                      <Link to="/about" className="text-dark text-decoration-none p1">About</Link>
+                      <Link to="/about" className="text-dark text-decoration-none p1">About Us</Link>
                     </p>
                     <p>
-                      <Link to="/" className="text-dark text-decoration-none p1">Contact</Link>
+                      <Link to="/terms_condition" className="text-dark text-decoration-none p1">Terms Condition</Link>
                     </p>
+                    
                     <p>
-                      <Link to="/careers" className="text-dark text-decoration-none p1">Career</Link>
+                      <Link to="/privacy_policy" className="text-dark text-decoration-none p1">Privacy Policy</Link>
                     </p>
+                    
                   </div>
 
                   <div className="col-md-2 col-lg-2 col-xl-2 col-6 mx-auto mb-4 s-1">

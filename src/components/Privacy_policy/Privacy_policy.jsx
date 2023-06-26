@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Kweesha_icon from '../common/Kweesha_icon';
 import "./Pivacy_policy.css";
 
 const Privacy_policy = () => {
+
+  useEffect(() =>{
+    window.scrollTo(0, 0);
+  });
+  
   return (
     <div className='privacy_data p-5'>
        <div className='container p-5 mb-4'>

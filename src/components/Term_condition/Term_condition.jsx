@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Kweesha_icon from '../common/Kweesha_icon';
 import "../Privacy_policy/Pivacy_policy.css"
 
 const Term_condition = () => {
+
+  useEffect(() =>{
+    window.scrollTo(0, 0);
+  });
+  
   return (
     <div className='privacy_data'>
        <div className='container p-5'>

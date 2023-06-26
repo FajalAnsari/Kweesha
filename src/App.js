@@ -22,8 +22,8 @@ function App() {
       <Route path="/about" element={<About_data />} />
       <Route path="/solutions" element={<Solutions_page />} />
       <Route path="/careers" element={<Career_data />} />
-      <Route path="/terms" element={<Term_condition />} />
-      <Route path="/privacy" element={<Privacy_policy />} />
+      <Route path="/terms_condition" element={<Term_condition />} />
+      <Route path="/privacy_policy" element={<Privacy_policy />} />
     </Routes>
      <Footer/>
   </Router>
