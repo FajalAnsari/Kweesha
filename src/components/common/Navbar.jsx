@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./common.css";
 
 const Navbar = () => {
+  
   useEffect(() => {
     const navItems = document.querySelectorAll(".nav-link");
     navItems.forEach(function (ele) {
@@ -16,6 +17,7 @@ const Navbar = () => {
     });
   }, []);
 
+  
   return (
     <>
       <header className="p-2 fixed shadow">
