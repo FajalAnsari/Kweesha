@@ -6,6 +6,9 @@
 border: 1px solid var(--bg-green-900);
 border-radius: 23px;
 }
+.cc:hover{
+    color: var(--bg-green-900);
+}
 .contact_us{
     padding: 7% !important;
 }
@@ -52,10 +55,11 @@ border-radius: 23px;
     width: 200% !important;
     margin-left: -68%;
 }
-.maps{
-    width: 200% !important;
+
+.qq{
+    width: 240% !important;
     margin-left: -68%;
-    margin-top: 25px !important;
+    margin-top: 55px !important;
     border-radius: 5%;
 }
 .sk{
