@@ -111,21 +111,21 @@ const Footer = () => {
                   <Link
                     className="btn  btn-floating m-1 text-dark icon"
                     role="button"
-                  ><i className="bi bi-instagram"></i></Link>
+                  ><i className="bi bi-instagram inst"></i></Link>
 
                   <Link
                     className="btn btn-floating m-1 text-dark icon"
                     role="button"
-                  ><i className="bi bi-facebook"></i></Link>
+                  ><i className="bi bi-facebook facebook"></i></Link>
 
                   <Link
                     className="btn btn-floating m-1 text-dark icon"
                     role="button"
-                  ><i className="bi bi-twitter"></i></Link>
+                  ><i className="bi bi-twitter twitter"></i></Link>
                   <Link
                     className="btn  btn-floating m-1 text-dark icon"
                     role="button"
-                  ><i className="bi bi-pinterest"></i></Link>
+                  ><i class="bi bi-linkedin linkdin"></i></Link>
                 </div>
               </div>
             </section>
