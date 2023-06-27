@@ -6,6 +6,9 @@
 border: 1px solid var(--bg-green-900);
 border-radius: 23px;
 }
+.cc:hover{
+    background: var(--read-more-bg);
+}
 .contact_us{
     padding: 7% !important;
 }

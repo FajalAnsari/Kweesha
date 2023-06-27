@@ -101,7 +101,7 @@ const Footer = () => {
               <div className="row d-flex align-items-center">
                 <div className="col-md-7 col-lg-8 text-center text-md-start">
                   <div className="p-3 ps-1">
-                    Copyright © <span className='text-success'>Kweesha Pvt. Ltd.</span> | Powered by <Link to="https://difm.llc/" className='text-success text-decoration-none'>Do iT For Me LCC</Link>
+                    Copyright © <span className='text-success'>Kweesha Pvt. Ltd.</span> | Powered by <Link to="https://difm.llc" className='text-success text-decoration-none'>Do iT For Me LCC</Link>
                   </div>
                 </div>
 
