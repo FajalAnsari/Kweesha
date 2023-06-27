@@ -60,10 +60,13 @@
 
   @media only screen and (max-width: 540px) {
     .img {
-        width: 115% !important;   
+        /* width: 200px !important;    */
+        margin-bottom: 10px;
     }
-    .mobres{
-     margin-left: 22%;
+    .mobres img{
+     /* margin-left: 22%;
+     background-color: red; */
+
     }
     .title{
         width: 110% !important;
