@@ -99,7 +99,7 @@ const Footer = () => {
               <div className="row d-flex align-items-center">
                 <div className="col-md-7 col-lg-8 text-center text-md-start">
                   <div className="p-3 ps-1">
-                    Copyright ©2023-2024 <span className='text-success'>Kweesha Pvt. Ltd.</span> | <Link to="/" className='text-success text-decoration-none'>Kweesha</Link>
+                    Copyright ©<span className='text-success'>2023-2024</span> | <Link to="/" className='text-success text-decoration-none'>Kweesha Pvt. Ltd.</Link>
                   </div>
                 </div>
 
