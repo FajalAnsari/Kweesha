@@ -24,11 +24,11 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-lg fixed-top navbar-light bg-white">
           <div className="container">
             <span className="navbar-brand">
-              <img
+             <Link to={"/"}><img
                 src="kweesha_logo.png"
                 alt="kweesha_logo"
                 className="kweeshalogo w-75 navbar-brand"
-              />
+              /></Link> 
             </span>
             <button
               className="navbar-toggler"
