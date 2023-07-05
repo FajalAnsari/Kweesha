@@ -101,3 +101,7 @@ html{
   border-bottom: 2px solid green;
   transition: border-bottom 0.3s ease-in-out;
 }
+
+*{
+  overflow-x: hidden;
+}
