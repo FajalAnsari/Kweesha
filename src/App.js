@@ -19,12 +19,12 @@ function App() {
       <Route path="/about_data" element={<About_data />} />
       <Route path="/solutions_data" element={<Solutions_page />} />
       <Route path="/career_data" element={<Career_data />} />
-      <Route path='/*' element={<Default_page />} />
       <Route path="/about" element={<About_data />} />
       <Route path="/solutions" element={<Solutions_page />} />
       <Route path="/careers" element={<Career_data />} />
       <Route path="/terms_condition" element={<Term_condition />} />
       <Route path="/privacy_policy" element={<Privacy_policy />} />
+      <Route path='/*' element={<Default_page />} />
     </Routes>
      <Footer/>
   </Router>
