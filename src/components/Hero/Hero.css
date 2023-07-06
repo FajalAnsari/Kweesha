@@ -28,14 +28,15 @@
 } 
 
 .Hero_Page p{
-    width: 35%;
-    margin-left: -33.25%;
+    width: 39%;
+    margin-left: -28.85%;
     font-family: 'Concert One', cursive;
     color: var(--line);
     opacity: .80;
 }
 .Hero_Page h1{
-    margin-left: -40%;
+    margin-left: -25.85%;
+    font-size: 60px;
     font-family: 'Concert One', cursive;
     color: var(--bg-green-900);
 }

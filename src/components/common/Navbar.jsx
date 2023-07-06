@@ -1,8 +1,10 @@
 import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./common.css";
 
 const Navbar = () => {
+
+  const navigate = useNavigate();
   
   useEffect(() => {
     const navItems = document.querySelectorAll(".nav-link");
@@ -50,7 +52,8 @@ const Navbar = () => {
                   <Link
                     className="nav-link active fs-5 me-4"
                     aria-current="page"
-                    to="/"
+                    to=""
+                    onClick={() =>navigate("/")}
                   >
                     Home
                   </Link>
