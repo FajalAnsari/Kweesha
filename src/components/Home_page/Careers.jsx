@@ -12,7 +12,7 @@ const Careers = () => {
     <>
  <div>
 
-        <div className='main p-5 ' id='box3'>
+        <div className='main p-5 section' id='box3'>
             <div className='mt-5'>
             <h1 className='text-center heading text-uppercase'>CAREERS</h1>
           <Kweesha_icon/>
