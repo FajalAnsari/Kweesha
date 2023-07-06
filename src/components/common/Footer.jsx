@@ -17,14 +17,14 @@ const Footer = () => {
                   <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                     <img src={footer_logo} alt="kweesha_logo" className='w-75' />
                     <p className="text-dark text-decoration-none mt-4"><b>Head Office Address </b><br />
-                      6Navneet Vihar, Sector 9, Indira
+                      16 Navneet Vihar, Sector 9, Indira
                       <br />
                       Nagar, Lucknow, Uttar Pradesh
                       <br />
                       226021
                     </p>
                   </div>
-                  <div className="col-md-3 col-lg-4 col-xl-3 col-6 mx-auto s-1 mb-4">
+                  <div className="col-md-2 col-lg-2 col-xl-2 col-6 mx-auto s-1 mb-4">
                     <hr className="mb-2 mt-0 d-inline-block mx-auto footer_com" />
                     <h6 className="text-uppercase fw-bold text-success">Quick Link</h6>
                     <hr
@@ -47,29 +47,7 @@ const Footer = () => {
                     
                   </div>
 
-                  <div className="col-md-2 col-lg-2 col-xl-2 col-6 mx-auto mb-4 s-1">
-                    <hr
-                      className="mb-2 mt-0 d-inline-block mx-auto footer_com"
-                    />
-                    <h6 className="text-uppercase fw-bold text-success">DIFM Groups</h6>
-                    <hr
-                      className="mb-3 mt-1 d-inline-block mx-auto footer_com"
-                    />
-                    <p>
-                      <Link to="https://www.worldmodelhunt.com/" className="text-dark text-decoration-none p1">World Model Hunt</Link>
-                    </p>
-                    <p>
-                      <Link to="https://wmhindia.com/" className="text-dark text-decoration-none p1">WMHindia</Link>
-                    </p>
-                    <p>
-                      <Link to="https://difm.llc/" className="text-dark text-decoration-none p1">DIFM LLC</Link>
-                    </p>
-                    <p>
-                      <Link to="https://laymanlitigation.com/" className="text-dark text-decoration-none p1">Layman litigation</Link>
-                    </p>
-                  </div>
-
-                  <div className="col-md-3 col-lg-2 col-xl-2 col-5 mx-auto mb-4 s-1">
+                  <div className="col-md-2 col-lg-2 col-xl-2 col-5 mx-auto mb-4 s-1">
                     <hr
                       className="mb-2 mt-0 d-inline-block mx-auto footer_com"
                     />
@@ -91,6 +69,26 @@ const Footer = () => {
                     </p>
                   </div>
 
+                  
+                  <div className="col-md-5 col-lg-5 col-xl-5 col-6 mx-auto mb-4 s-1">
+                    <hr
+                      className="mb-2 mt-0 d-inline-block mx-auto footer_com"
+                    />
+                    <h6 className="text-uppercase fw-bold text-success">Subscribe</h6>
+                    <hr
+                      className="mb-3 mt-1 d-inline-block mx-auto footer_com"
+                    />
+                    <div class="footer-text mb-25">
+                                <p class="text-dark">Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                            </div>
+                            <div class="subscribe-form">
+                                <form action="#">
+                                    <input type="text" class="text-white" placeholder="Email Address" />
+                                    <button type="button">Subscribe</button>
+                                </form>
+                            </div>
+                  </div>
+
                 </div>
               </div>
             </section>
@@ -101,7 +99,7 @@ const Footer = () => {
               <div className="row d-flex align-items-center">
                 <div className="col-md-7 col-lg-8 text-center text-md-start">
                   <div className="p-3 ps-1">
-                    Copyright © <span className='text-success'>Kweesha Pvt. Ltd.</span> | Powered by <Link to="https://difm.llc" className='text-success text-decoration-none'>Do iT For Me LCC</Link>
+                    Copyright ©<span className='text-success'>2023-2024</span> | <Link to="/" className='text-success text-decoration-none'>Kweesha Pvt. Ltd.</Link>
                   </div>
                 </div>
 
