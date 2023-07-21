@@ -31,10 +31,11 @@
 
   .subscribe-form {
     position: relative;
+    display: inline !important;
     overflow: hidden;
   }
   .subscribe-form input {
-    width: 100%;
+    width: 70%;
     padding: 14px 28px;
     outline: none;
     border: 1px solid var(--second-primary);
@@ -42,8 +43,6 @@
   }
  
   .subscribe-form button {
-      position: absolute;
-      right: 0;
       background: var(--bg-green-900);
       padding: 13px 20px;
       border: none;
@@ -52,7 +51,7 @@
   .subscribe-form button{
     color: #fff;
     font-size: 15px;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
     font-weight: 400 !important;
   }
 
