@@ -126,7 +126,7 @@ const Leave_us = () => {
     <>
       <div className="leave_us p-5">
         <h1 className='text-center p-4'>LEAVE US A MESSAGE!</h1>
-        <div className='text-center'><img src={kweesha_home_logo} className='mb-5' alt='kweesha_icon'></img></div>
+        <img src={kweesha_home_logo} className='mb-5 mx-auto d-block' alt='kweesha_icon'></img>
         <div className="container">
           <div className="shadow form-container forms-bg  mb-4 mx-auto p-5">
             <form class="row g-3 me-4 mx-4 mt-1" onSubmit={handleFormSubmit}>

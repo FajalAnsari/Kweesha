@@ -11,8 +11,8 @@ const Footer = () => {
       <div className='footer_page'>
         <div className="container">
           <footer className="text-center text-lg-start text-dark  p-5" >
-            <section className="">
-              <div className="container text-center text-md-start mt-5">
+            <section className="footer_section">
+              <div className="container text-center footerp text-md-start mt-5">
                 <div className="row mt-3">
                   <div class="col-md-3 col-lg-3 col-xl-3 col-12 mx-auto mt-3">
                     <img src={footer_logo} alt="kweesha_logo" className='w-75' />
