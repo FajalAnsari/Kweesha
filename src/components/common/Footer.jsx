@@ -14,9 +14,9 @@ const Footer = () => {
             <section className="">
               <div className="container text-center text-md-start mt-5">
                 <div className="row mt-3">
-                  <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                  <div class="col-md-3 col-lg-3 col-xl-3 col-12 mx-auto mt-3">
                     <img src={footer_logo} alt="kweesha_logo" className='w-75' />
-                    <p className="text-dark text-decoration-none mt-4"><b>Head Office Address </b><br />
+                    <p className="text-dark text-decoration-none mt-4 add"><b>Head Office Address </b><br />
                       16 Navneet Vihar, Sector 9, Indira
                       <br />
                       Nagar, Lucknow, Uttar Pradesh
@@ -47,7 +47,7 @@ const Footer = () => {
                     
                   </div>
 
-                  <div className="col-md-2 col-lg-2 col-xl-2 col-5 mx-auto mb-4 s-1">
+                  <div className="col-md-2 col-lg-2 col-xl-2 col-6 mx-auto mb-4 s-1">
                     <hr
                       className="mb-2 mt-0 d-inline-block mx-auto footer_com"
                     />
@@ -70,7 +70,7 @@ const Footer = () => {
                   </div>
 
                   
-                  <div className="col-md-5 col-lg-5 col-xl-5 col-6 mx-auto mb-4 s-1">
+                  <div className="col-md-5 col-lg-5 col-xl-5 col-12  mb-4 s-1">
                     <hr
                       className="mb-2 mt-0 d-inline-block mx-auto footer_com"
                     />
