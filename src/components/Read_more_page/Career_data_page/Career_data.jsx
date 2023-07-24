@@ -27,7 +27,7 @@ So, if you're smart, driven, and ready to make a difference, apply today and joi
 
       </p>
       </div>
-      <div className="d-flex justify-content-center">
+      <div className="d-flex justify-content-center cars8">
       <Link to='/'><p className='about_buttons text-center text-white fw-bold mt-5'><i class="bi bi-arrow-left-short arrow"></i></p></Link>
       <Link to='/' className='text-decoration-none'><p className='about_buttonss text-center text-white fw-bold mt-5'>Apply Now</p></Link>
       </div>

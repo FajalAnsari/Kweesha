@@ -84,4 +84,102 @@
        margin-left: -5%;
        background-color: var(--bg-green-900);
       }
+      .about_button {
+        width: 38% !important;
+        padding-bottom: 1.5%;
+    }
+    .cars8{
+        justify-content: left !important;
+    }
+  }
+  @media only screen  and (min-width: 280px) and (max-width: 320px) {
+    .btnss{
+       margin-left: -5%;
+       font-size: 13px;
+      }
+  }
+  @media only screen and (width: 912px) {
+    .img {
+        margin-bottom: 10px;
+        width: 100% !important;
+        float: left;
+    }
+    .title{
+        width: 100% !important;
+        margin-top: 15px;
+        text-align: justify !important;
+        margin-left: 0%;
+        font-size: 26px !important;
+    }
+    .desc{
+        width: 100% !important;
+        text-align: justify !important;
+        margin-left: 0%;
+        font-size: 24px !important;
+    }
+    .btnss{
+        padding-top: 3.35%;
+        padding-bottom: 3.35%;
+       width: 40%;
+       margin-left: 0%;
+       font-size: 30px;
+       background-color: var(--bg-green-900);
+      }
+  }
+
+  @media only screen and (width: 768px) {
+    .img {
+        margin-bottom: 10px;
+        width: 100% !important;
+        float: left;
+    }
+    .title{
+        width: 100% !important;
+        margin-top: 15px;
+        text-align: justify !important;
+        margin-left: 0%;
+        font-size: 26px !important;
+    }
+    .desc{
+        width: 100% !important;
+        text-align: justify !important;
+        margin-left: 0%;
+        font-size: 24px !important;
+    }
+    .btnss{
+        padding-top: 3.35%;
+        padding-bottom: 3.35%;
+       width: 40%;
+       margin-left: 0%;
+       font-size: 30px;
+       background-color: var(--bg-green-900);
+      }
+  }
+  @media only screen and (width: 820px) {
+    .img {
+        margin-bottom: 10px;
+        width: 100% !important;
+        float: left;
+    }
+    .title{
+        width: 100% !important;
+        margin-top: 15px;
+        text-align: justify !important;
+        margin-left: 0%;
+        font-size: 26px !important;
+    }
+    .desc{
+        width: 100% !important;
+        text-align: justify !important;
+        margin-left: 0%;
+        font-size: 24px !important;
+    }
+    .btnss{
+        padding-top: 3.35%;
+        padding-bottom: 3.35%;
+       width: 40%;
+       margin-left: 0%;
+       font-size: 30px;
+       background-color: var(--bg-green-900);
+      }
   }

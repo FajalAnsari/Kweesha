@@ -58,5 +58,15 @@
 .read_desc{
     width: 110% !important; 
 }
+.about_button {
+    width: 50% !important;
+    padding-bottom: 20.5%;
+}
+ }
 
+ @media only screen  and (min-width: 280px) and (max-width: 320px) {
+    .about_button {
+        width: 54% !important;
+        padding-bottom: 26.5%;
+    }
  }

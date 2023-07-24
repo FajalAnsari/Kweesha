@@ -35,20 +35,22 @@
     opacity: .80;
 }
 .Hero_Page h1{
-    margin-left: -25.85%;
-    font-size: 60px;
+    margin-left: -32.85%;
+    font-size: 50px;
     font-family: 'Concert One', cursive;
     color: var(--bg-green-900);
 }
-@media only screen and (max-width: 540px) {
+
+@media only screen  and (max-width: 540px) {
     .Hero_Page h1{
         margin-left: 0%;
         font-size: 24.5px;
     }
     .Hero_Page p{
         width: 90%;
+        font-family: 'sans-serif', system-ui;
         margin-left: 5%;
-        font-size: 17px !important;
+        font-size: 16px !important;
     }
     .Hero_Page .btns{
         width: 38%;
@@ -69,3 +71,124 @@
         width: 26%;
       }
 }
+@media only screen  and (min-width: 280px) and (max-width: 320px) {
+    .Hero_Page h1{
+        margin-left: -7%;
+        font-size: 18.5px;
+    }
+    .Hero_Page p{
+        width: 90%;
+        font-family: 'sans-serif', system-ui;
+        margin-left: 5%;
+        font-size: 14px !important;
+    }
+    .Hero_Page .btns{
+        width: 38%;
+        height: 11%;
+        padding-top: 0.85%;
+        background-color: var(--bg-green-900);
+        border-color: rgba(0, 0, 0, 0.377);
+        margin-left: -48%;
+    } 
+    .section .mts{
+        margin-top: 0px !important;
+    }
+    .Hero_Page{
+        Height:50vh;
+      }
+      .Hero_Page .kweesha1_herologo{
+        margin-top: 50px;
+        width: 26%;
+      }
+}
+
+@media only screen and (width: 912px) {
+    .Hero_Page h1{
+        margin-left: -12%;
+        font-size: 50px;
+    }
+    .Hero_Page p{
+        width: 90%;
+        margin-left: 4%;
+        font-size: 24px !important;
+    }
+    .Hero_Page .btns{
+        width: 28%;
+        height: 10%;
+        padding-top: 2%;
+        background-color: var(--bg-green-900);
+        border-color: rgba(0, 0, 0, 0.377);
+        margin-left: -58%;
+    } 
+    .section .mts{
+        margin-top: 0px !important;
+    }
+    .Hero_Page{
+        Height:50vh;
+      }
+      .Hero_Page .kweesha1_herologo{
+        margin-top: 50px;
+        width: 26%;
+      }
+}
+
+@media only screen and (width: 768px) {
+    .Hero_Page h1{
+        margin-left: -19%;
+        font-size: 35px;
+    }
+    .Hero_Page p{
+        width: 90%;
+        margin-left: 9%;
+        font-size: 24px !important;
+    }
+    .Hero_Page .btns{
+        width: 28%;
+        height: 10%;
+        padding-top: 1%;
+        background-color: var(--bg-green-900);
+        border-color: rgba(0, 0, 0, 0.377);
+        margin-left: -53%;
+    } 
+    .section .mts{
+        margin-top: 0px !important;
+    }
+    .Hero_Page{
+        Height:50vh;
+      }
+      .Hero_Page .kweesha1_herologo{
+        margin-top: 80px;
+        width: 20%;
+      }
+}
+@media only screen and (width: 820px) {
+    .Hero_Page h1{
+        margin-left: -23%;
+        font-size: 35px;
+    }
+    .Hero_Page p{
+        width: 90%;
+        margin-left: 9%;
+        font-size: 24px !important;
+    }
+    .Hero_Page .btns{
+        width: 28%;
+        height: 10%;
+        padding-top: 2%;
+        background-color: var(--bg-green-900);
+        border-color: rgba(0, 0, 0, 0.377);
+        margin-left: -53%;
+    } 
+    .section .mts{
+        margin-top: 0px !important;
+    }
+    .Hero_Page{
+        Height:50vh;
+      }
+      .Hero_Page .kweesha1_herologo{
+        margin-top: 80px;
+        width: 20%;
+      }
+}
+
+
