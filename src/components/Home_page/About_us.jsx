@@ -13,11 +13,11 @@ const About_us = () => {
 
 
       <div className='main p-5 section' id='box1'>
-        <div className='mt-5'>
+        <div className='mt-5 mts'>
           <h1 className='text-center heading text-uppercase'>About Us</h1>
           <Kweesha_icon />
           <div className='row mt-5'>
-            <div className='col-lg-6 col-12 mobres'>
+            <div className='col-lg-6 col-12'>
               <img src={kweesha_about} className='img me-5' alt='home_page'></img>
             </div>
             <div className='col-lg-6 col-12 data'>
