@@ -4,23 +4,7 @@ import "./common.css";
 
 const Navbar = () => {
 
-  // const navigate = useNavigate();
-  
-  // useEffect(() => {
-  //   const navItems = document.querySelectorAll(".nav-link");
-  //   navItems.forEach(function (ele) {
-  //     ele.addEventListener("click", function (event) {
-  //       event.preventDefault();
-  //       navItems.forEach(function (ele) {
-  //         ele.classList.remove("active");
-  //       });
-  //       this.classList.add("active");
-  //     });
-  //   });
-  // }, []);
 
-  
-  
   return (
     <>
       <header className="p-2 fixed shadow">

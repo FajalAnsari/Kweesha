@@ -1,100 +1,118 @@
-.footer_page .footer_com{
-    width: 100px !important; 
-    background-color: var(--line-second);
-     height: 2px
+.footer_page .footer_com {
+  width: 100px !important;
+  background-color: var(--line-second);
+  height: 2px;
 }
-.kweeshalogo{
-    margin-top: -10px !important;
+.kweeshalogo {
+  margin-top: -10px !important;
 }
-.footer_page .footer_comm{
-    width: 100% !important; 
-    background-color: var(--line-second);
-     height: 2px
+.footer_page .footer_comm {
+  width: 100% !important;
+  background-color: var(--line-second);
+  height: 2px;
 }
-.footer_page{
-    background: var(--background);
+.footer_page {
+  background: var(--background);
 }
- .p1:hover{
+.p1:hover {
   color: var(--bg-green-900) !important;
 }
 
-.icon{
-    transition: transform .2s;
-    
+.icon {
+  transition: transform 0.2s;
 }
 
 .icon:hover {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.5); 
-  }
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
 
-  .subscribe-form {
-    position: relative;
-    display: inline !important;
-    overflow: hidden;
-  }
-  .subscribe-form input {
-    width: 70%;
-    padding: 14px 28px;
-    outline: none;
-    border: 1px solid var(--second-primary);
-    color: var(--primary) !important;
-  }
- 
-  .subscribe-form button {
-      background: var(--bg-green-900);
-      padding: 13px 20px;
-      border: none;
-      top: 0;
-  }
-  .subscribe-form button{
-    color: #fff;
-    font-size: 15px;
-    padding-bottom: 3%;
-    font-weight: 400 !important;
-  }
+.subscribe-form {
+  position: relative;
+  display: inline !important;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 70%;
+  padding: 14px 28px;
+  outline: none;
+  border: 1px solid var(--second-primary);
+  color: var(--primary) !important;
+}
 
+.subscribe-form button {
+  background: var(--bg-green-900);
+  padding: 13px 20px;
+  border: none;
+  top: 0;
+}
+.subscribe-form button {
+  color: #fff;
+  font-size: 15px;
+  padding-bottom: 3%;
+  font-weight: 400 !important;
+}
+
+/* Navbar toggler button effect  */
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.navbar-toggler {
+  border: none;
+  background-color: transparent;
+  padding: .25rem .75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  color: rgb(78 172 102) !important;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+.navbar-toggler:hover {
+  transform: scale(1.0);
+}
+/* Navbar toggler button effect  end here */
 
 @media only screen and (max-width: 540px) {
-    .footerp {
-        margin-left: -5px !important;
-        text-align: left !important;
-    }
-    .subscribe-form input {
-        width: 57%;
-        padding: 14px 15px;
-      }
-      .subscribe-form .add{
-        width: 109% !important;
-      }
-    .subscribe-forms{
-        display: block !important;
-    }
-    .footer_page  .s-2{
-        width: 125%;
-        margin-left: -10%;
-    }
-    .kweeshalogo{
-        width: 40% !important;
-    }
-    .navbar-toggler{
-        margin-left: 80%;
-        margin-top: -10%;
-    }
-
+  .footerp {
+    margin-left: -5px !important;
+    text-align: left !important;
+  }
+  .subscribe-form input {
+    width: 57%;
+    padding: 14px 15px;
+  }
+  .subscribe-form .add {
+    width: 109% !important;
+  }
+  .subscribe-forms {
+    display: block !important;
+  }
+  .footer_page .s-2 {
+    width: 125%;
+    margin-left: -10%;
+  }
+  .kweeshalogo {
+    width: 40% !important;
+  }
+  .navbar-toggler {
+    margin-left: 80%;
+    margin-top: -10%;
+  }
 }
 @media only screen and (width: 360px) {
-    .add{
-        width: 110% !important;
-      }
-      .subscribe-form input {
-        width: 50% !important;
-        padding: 14px 8px;
-      }
+  .add {
+    width: 110% !important;
+  }
+  .subscribe-form input {
+    width: 50% !important;
+    padding: 14px 8px;
+  }
 }
-@media only screen  and (min-width: 280px) and (max-width: 320px) {
-  .add{
+@media only screen and (min-width: 280px) and (max-width: 320px) {
+  .add {
     width: 90% !important;
   }
   .subscribe-form input {
@@ -103,77 +121,76 @@
   }
   .subscribe-form button {
     padding: 13px 5px;
-}
-.subscribe-form input {
-  width: 57% !important;
-  padding: 13px 0px;
-}
+  }
+  .subscribe-form input {
+    width: 57% !important;
+    padding: 13px 0px;
+  }
 }
 @media only screen and (width: 375px) {
-  .add{
+  .add {
     width: 140% !important;
   }
-      .subscribe-form input {
-        width: 52% !important;
-        padding: 14px 8px;
-      }
+  .subscribe-form input {
+    width: 52% !important;
+    padding: 14px 8px;
+  }
 }
 @media only screen and (width: 1024px) {
-      .subscribe-form input {
-        width: 66% !important;
-        padding: 14px 8px;
-      }
+  .subscribe-form input {
+    width: 66% !important;
+    padding: 14px 8px;
+  }
 }
 /* footer social medial icon style */
 
-
-
-
-.icon{
-    transition: transform .2s;
-    
+.icon {
+  transition: transform 0.2s;
 }
 
 .icon:hover {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.5); 
-  }
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
 
 /* .inst:hover{
     color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
 } */
 
-
-.facebook:hover{
-    /* background: linear-gradient(); */
-    background: linear-gradient(#3B5998, #3B5998);
-    -webkit-background-clip: text;
-            /* Also define standard property for compatibility */
-            background-clip: text;
-    -webkit-text-fill-color: transparent;
+.facebook:hover {
+  /* background: linear-gradient(); */
+  background: linear-gradient(#3b5998, #3b5998);
+  -webkit-background-clip: text;
+  /* Also define standard property for compatibility */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.inst:hover{
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    -webkit-background-clip: text;
-            /* Also define standard property for compatibility */
-            background-clip: text;
-    -webkit-text-fill-color: transparent;
-    
-  
-    
-  }
-.twitter:hover{
-    background: linear-gradient(#00b9ff, #00b9ff);
-    -webkit-background-clip: text;
-            /* Also define standard property for compatibility */
-            background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-.linkdin:hover{
-    background: linear-gradient(#0072b1, #0072b1);
-    -webkit-background-clip: text;
-    /* Also define standard property for compatibility */
-    background-clip: text;
--webkit-text-fill-color: transparent;
+.inst:hover {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  -webkit-background-clip: text;
+  /* Also define standard property for compatibility */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.twitter:hover {
+  background: linear-gradient(#00b9ff, #00b9ff);
+  -webkit-background-clip: text;
+  /* Also define standard property for compatibility */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.linkdin:hover {
+  background: linear-gradient(#0072b1, #0072b1);
+  -webkit-background-clip: text;
+  /* Also define standard property for compatibility */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
