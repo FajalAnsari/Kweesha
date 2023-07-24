@@ -201,7 +201,14 @@ margin-top: -10% !important;
             font-size: 147% !important;
         }
         }
-
+        @media only screen  and (min-width: 280px) and (max-width: 320px) {        
+            .qq{
+                width: 210px !important;
+            }
+            .sk{
+            margin-left: -10px !important;
+            }
+          }
         @media only screen and (width: 768px) {
             .cc{
                 width: 100% !important;
