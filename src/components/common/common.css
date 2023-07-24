@@ -118,6 +118,12 @@
         padding: 14px 8px;
       }
 }
+@media only screen and (width: 1024px) {
+      .subscribe-form input {
+        width: 66% !important;
+        padding: 14px 8px;
+      }
+}
 /* footer social medial icon style */
 
 
