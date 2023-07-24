@@ -127,7 +127,16 @@
        background-color: var(--bg-green-900);
       }
   }
-
+  @media only screen and (width: 1024px) {
+    .btnss{
+        padding-top: 3.35%;
+        padding-bottom: 3.35%;
+       width: 40%;
+       margin-left: 0%;
+       font-size: 15px;
+       background-color: var(--bg-green-900);
+      }
+}
   @media only screen and (width: 768px) {
     .img {
         margin-bottom: 10px;

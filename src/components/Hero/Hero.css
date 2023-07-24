@@ -197,3 +197,40 @@
 }
 
 
+@media only screen and (width: 1024px) {
+    .Hero_Page h1{
+        margin-left: -22%;
+        font-size: 35px;
+    }
+    .Hero_Page .btns{
+        margin-left: -56%;
+    } 
+    .section .mts{
+        margin-top: 0px !important;
+    }
+      .Hero_Page .kweesha1_herologo{
+        margin-top: 80px;
+        width: 10%;
+      }
+}
+
+@media only screen and (width: 1280px) {
+    .Hero_Page h1{
+        margin-left: -33%;
+        font-size: 35px;
+    }
+    .Hero_Page .btns{
+        margin-left: -59%;
+    } 
+    .Hero_Page p{
+        margin-left: -31%;
+    }
+    .section .mts{
+        margin-top: 0px !important;
+    }
+      .Hero_Page .kweesha1_herologo{
+        margin-top: 80px;
+        width: 10%;
+      }
+}
+
