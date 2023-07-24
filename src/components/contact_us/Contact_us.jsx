@@ -12,7 +12,7 @@ const Contact_us = () => {
             {/* contact us */}
             <div className='row cc w-100 d-flex justify-content-end'>
               <div className='col-lg-2'>
-                <div className='mt-5 f-cons'> <i class="bi bi-envelope-fill sk"></i></div>
+                <div className='mt-5 f-cons'><i class="bi bi-envelope-fill sk"></i></div>
               </div>
               <div className='col-lg-10'>
                 <p className='cont fs-5 mb-1 mt-1'>Contact Us</p>

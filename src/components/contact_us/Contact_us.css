@@ -66,4 +66,180 @@ border-radius: 23px;
 margin-left: -25px !important;
 margin-top: -10% !important;
 }
+.maps{
+    width: 90% !important;
 }
+.contact_us .f-cons {
+    height: 46px;
+    margin-top: 35px !important;
+    font-weight: 700;
+    font-size: 23px;
+    border-radius: 50%;
+    margin-left: 10px;
+    padding-top: 2% !important;
+    padding-left: 12.46%;
+    width: 46px;
+}
+}
+@media only screen and (width: 414px) {
+    .contact_us .f-cons {  
+        padding-left: 10.96% !important;
+    }
+    .maps{
+        width: 100% !important;
+    }
+    .Hero_Page h1 {
+        margin-left: -5% !important;
+    }
+}
+@media only screen and (width: 375px) {
+    .contact_us .f-cons {  
+        padding-left: 13.46% !important;
+    }
+    .maps{
+        width: 83% !important;
+    }
+    .Hero_Page h1 {
+        margin-left: 4% !important;
+    }
+}
+@media only screen and (width: 360px) {
+    .contact_us .f-cons {  
+        padding-left: 15.46% !important;
+    }
+    .maps{
+        width: 76% !important;
+    }
+    .Hero_Page h1 {
+        margin-left: 5% !important;
+    }
+}
+@media only screen and (width: 412px) {
+    .contact_us .f-cons {  
+        padding-left: 10.96% !important;
+    }
+    .maps{
+        width: 100% !important;
+    }
+    .Hero_Page h1 {
+        margin-left: -4%;
+    }
+}
+
+@media only screen and (width: 912px) {
+    .cc{
+        width: 100% !important;
+        margin-left: 0%;
+    }
+    
+    .qq{
+        width: 600px !important;
+        margin-left: 0%;
+        margin-top: 55px !important;
+        border-radius: 5%;
+    }
+    .sk{
+    margin-left: 12px !important;
+    margin-top: 2% !important;
+    }
+    .maps{
+        width: 90% !important;
+    }
+    .contact_us .f-cons {
+        height: 56px;
+        margin-top: 35px !important;
+        font-weight: 700;
+        font-size: 23px;
+        border-radius: 50%;
+        margin-left: 10px;
+        padding-top: 2% !important;
+        padding-left: .46%;
+        width: 56px;
+    }
+    .contact_us p {
+        font-size: 147%;
+    }
+   .cont {
+        font-size: 147% !important;
+    }
+    }
+
+    @media only screen and (width: 820px) {
+        .cc{
+            width: 100% !important;
+            margin-left: -6%;
+        }
+        
+        .qq{
+            width: 600px !important;
+            margin-left: -14%;
+            margin-top: 55px !important;
+            border-radius: 5%;
+        }
+        .sk{
+        margin-left: 12px !important;
+        margin-top: 2% !important;
+        }
+        .maps{
+            width: 90% !important;
+        }
+        .contact_us .f-cons {
+            height: 56px;
+            margin-top: 35px !important;
+            font-weight: 700;
+            font-size: 23px;
+            border-radius: 50%;
+            margin-left: 10px;
+            padding-top: 2% !important;
+            padding-left: .46%;
+            width: 56px;
+        }
+        .contact_us p {
+            font-size: 147%;
+        }
+       .cont {
+            font-size: 147% !important;
+        }
+        }
+
+        @media only screen and (width: 768px) {
+            .cc{
+                width: 100% !important;
+                margin-left: -6%;
+            }
+            
+            .qq{
+                width: 540px !important;
+                margin-left: -14%;
+                margin-top: 55px !important;
+                border-radius: 5%;
+            }
+            .sk{
+            margin-left: 12px !important;
+            margin-top: 2% !important;
+            }
+            .maps{
+                width: 90% !important;
+            }
+            .contact_us .f-cons {
+                height: 56px;
+                margin-top: 35px !important;
+                font-weight: 700;
+                font-size: 23px;
+                border-radius: 50%;
+                margin-left: 10px;
+                padding-top: 2% !important;
+                padding-left: .46%;
+                width: 56px;
+            }
+            .contact_us p {
+                font-size: 147%;
+            }
+           .cont {
+                font-size: 147% !important;
+            }
+            }
+    
+    
+            
+        
