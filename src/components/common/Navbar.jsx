@@ -4,21 +4,22 @@ import "./common.css";
 
 const Navbar = () => {
 
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   
-  useEffect(() => {
-    const navItems = document.querySelectorAll(".nav-link");
-    navItems.forEach(function (ele) {
-      ele.addEventListener("click", function (event) {
-        event.preventDefault();
-        navItems.forEach(function (ele) {
-          ele.classList.remove("active");
-        });
-        this.classList.add("active");
-      });
-    });
-  }, []);
+  // useEffect(() => {
+  //   const navItems = document.querySelectorAll(".nav-link");
+  //   navItems.forEach(function (ele) {
+  //     ele.addEventListener("click", function (event) {
+  //       event.preventDefault();
+  //       navItems.forEach(function (ele) {
+  //         ele.classList.remove("active");
+  //       });
+  //       this.classList.add("active");
+  //     });
+  //   });
+  // }, []);
 
+  
   
   return (
     <>
@@ -49,58 +50,50 @@ const Navbar = () => {
             >
               <ul className="navbar-nav ms-auto mb-2 mt-2 mb-lg-0">
                 <li className="nav-item">
-                  <Link
+                  <a
                     className="nav-link active fs-5 me-4"
                     aria-current="page"
-                    to=""
-                    onClick={() =>navigate("/")}
+                    href="/#home"
+                    
                   >
                     Home
-                  </Link>
+                  </a>
                 </li>
                 <li className="nav-item">
-                  <Link
+                  <a
                     className="nav-link fs-5 me-4"
-                    to=""
-                    onClick={() =>
-                      document.getElementById("box1").scrollIntoView()
-                    }
+                    href="/#box1"
+                    
                   >
                     About Us
-                  </Link>
+                  </a>
                 </li>
                 <li className="nav-item">
-                  <Link
+                  <a
                     className="nav-link fs-5 me-4"
-                    to=""
-                    onClick={() =>
-                      document.getElementById("box2").scrollIntoView()
-                    }
+                   href="/#box2"
+                  
                   >
                     Solutions
-                  </Link>
+                  </a>
                 </li>
                 <li className="nav-item">
-                  <Link
+                  <a
                     className="nav-link fs-5 me-4"
-                    to=""
-                    onClick={() =>
-                      document.getElementById("box3").scrollIntoView()
-                    }
+                    href="/#box3"
+                    
                   >
                     Careers
-                  </Link>
+                  </a>
                 </li>
                 <li className="nav-item">
-                  <Link
+                  <a
                     className="nav-link fs-5"
-                    to=""
-                    onClick={() =>
-                      document.getElementById("contact_us_page").scrollIntoView()
-                    }
+                    href="/#contact_us_page"
+                   
                   >
                     Contact Us
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>

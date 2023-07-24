@@ -12,7 +12,7 @@ const About_us = () => {
     <>
 
 
-      <div className='main p-5 ' id='box1'>
+      <div className='main p-5 section' id='box1'>
         <div className='mt-5'>
           <h1 className='text-center heading text-uppercase'>About Us</h1>
           <Kweesha_icon />

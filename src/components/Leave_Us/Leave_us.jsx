@@ -76,6 +76,20 @@ const Leave_us = () => {
   const handleFormSubmit = (event) => {
     event.preventDefault();
 
+
+
+//     //email send start
+//     emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_USER_ID')
+//       .then((result) => {
+//         console.log(result.text);
+//         console.log("email has been sent");
+//       }, (error) => {
+//         console.log(error.text);
+//       });
+// //email send end
+  
+
+
     // Check if all required fields are filled out
     if (!fullName) {
       setFullNameError('Please enter your full name');
