@@ -73,6 +73,7 @@
 }
 @media only screen  and (width: 375px) {
     .Hero_Page .btns{
+        padding-top: 2% !important;
         height: 11%;
     } 
 }
