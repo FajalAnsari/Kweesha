@@ -103,7 +103,7 @@ const Footer = () => {
                   </div>
                 </div>
 
-                <div className="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+                <div className="col-md-5 col-lg-4 ml-lg-0  text-center text-md-end">
                   <p className='btn text-success btn-floating m-1 '>Follow:</p>
 
                   <Link
