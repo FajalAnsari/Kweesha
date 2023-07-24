@@ -16,7 +16,7 @@ const Hero = () => {
         <h1>Welcome to Kweesha Solutions <br />
           Pvt. Ltd</h1>
         <p className='fs-4 text-white'>Your partner for operational optimization and sustainable growth. Our analytical and innovative solutions drive efficiency and success across diverse industries.</p>
-        <Link to="" className='btns text-white text-center text-decoration-none'>Get In Touch</Link>
+        <a href="/#leavus" className='btns text-white text-center text-decoration-none'>Get In Touch</a>
       </div>
 
      
