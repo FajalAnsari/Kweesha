@@ -128,9 +128,7 @@
   }
 }
 @media only screen and (width: 375px) {
-  .add {
-    width: 140% !important;
-  }
+  
   .subscribe-form input {
     width: 52% !important;
     padding: 14px 8px;
