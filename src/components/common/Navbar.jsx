@@ -12,7 +12,7 @@ const Navbar = () => {
           <div className="container">
             <span className="navbar-brand">
              <Link to={"/"}><img
-                src="kweesha_logo.png"
+                src="kweesha_logo.svg"
                 alt="kweesha_logo"
                 className="kweeshalogo w-75 navbar-brand"
               /></Link> 
