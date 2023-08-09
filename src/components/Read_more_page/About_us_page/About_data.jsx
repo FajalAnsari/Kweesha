@@ -11,7 +11,7 @@ const About_data = () => {
   return (
     <div className='about_data p-5'>
         <div className='container'>
-        <h1 className='text-center p-4  mt-5'>ABOUT US</h1>
+        <h1 className='text-center p-4  mt-5 testscol'>ABOUT US</h1>
           <Kweesha_icon />
       <h2 className='text-center read_title mt-5'>Empowering Business Growth through Tailored Solutions</h2>
       <div className='justify-content-center'>

@@ -46,7 +46,7 @@ const Navbar = () => {
                 <li className="nav-item">
                   <a
                     className="nav-link fs-5 me-4"
-                    href="/#box1"
+                    href="/#about_us"
                     
                   >
                     About Us
@@ -55,7 +55,7 @@ const Navbar = () => {
                 <li className="nav-item">
                   <a
                     className="nav-link fs-5 me-4"
-                   href="/#box2"
+                   href="/#solution"
                   
                   >
                     Solutions
@@ -64,7 +64,7 @@ const Navbar = () => {
                 <li className="nav-item">
                   <a
                     className="nav-link fs-5 me-4"
-                    href="/#box3"
+                    href="/#career"
                     
                   >
                     Careers

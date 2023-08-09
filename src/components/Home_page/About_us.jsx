@@ -12,9 +12,9 @@ const About_us = () => {
     <>
 
 
-      <div className='main p-5 section' id='box1'>
+      <div className='main p-5 section' id='about_us'>
         <div className='mt-5 mts'>
-          <h1 className='text-center heading text-uppercase'>About Us</h1>
+          <h1 className='text-center heading text-uppercase testscol'>About Us</h1>
           <Kweesha_icon />
           <div className='row mt-5'>
             <div className='col-lg-6 col-12'>

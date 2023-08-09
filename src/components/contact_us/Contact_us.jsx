@@ -6,7 +6,7 @@ const Contact_us = () => {
     <>
     <div className='contact_us' id='contact_us_page'>
       <div className='container paddings_contus'>
-        <h1 className='text-center'>CONTACT US</h1>
+        <h1 className='text-center testscol'>CONTACT US</h1>
         <div className='text-center'><img src={kweesha_home_logo} className='mt-2 ' alt='kweesha_icon'></img></div>
         <div className='row mt-4 p-5 ms-5'>
           <div className='col-lg-6'>
