@@ -18,10 +18,12 @@ const Contact_us = () => {
               <div className='col-lg-10'>
                 <p className='cont fs-5 mb-1 mt-1'>Contact Us</p>
                 <p className='w-75 des mb-1'>Please feel free to drop us a line. We will respond as soon as possible.</p>
+                <a href="#leavus" className='text-decoration-none text-dark'>
                 <div className='d-flex'>
                   <h2 className='msg'>Leave a message </h2>
                   <i class="bi bi-arrow-right-circle ms-2"></i>
                 </div>
+                </a>
               </div>
             </div>
 
@@ -34,10 +36,12 @@ const Contact_us = () => {
                 <p className='cont fs-5 mb-1 mt-1'>Visit us</p>
 
                 <p className='des w-75 mb-1'>16Navneet Vihar, Sector 9, Indira Nagar, Lucknow, Uttar Pradesh 226021</p>
+                <a href="https://goo.gl/maps/bPyuUeMTL2Ry7BuB8" className='text-decoration-none text-dark'>
                 <div className='d-flex'>
                   <h2 className='msg'>Get Direction </h2>
                   <i class="bi bi-arrow-right-circle  ms-2"></i>
                 </div>
+                </a>
               </div>
             </div>
           </div>

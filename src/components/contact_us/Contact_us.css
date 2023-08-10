@@ -22,7 +22,8 @@ border-radius: 23px;
 }
 .contact_us h1{
     color: var(--text-black-700);
-    font-family: 'Concert One', cursive;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
     
 }
 .maps{
