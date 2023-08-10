@@ -1,6 +1,10 @@
 .contact_us .cont{
     color: var(--text-green-700);
 }
+
+.testscol{
+    color: #1c1c1c !important;
+}
 .cc {
 
 border: 1px solid var(--bg-green-900);

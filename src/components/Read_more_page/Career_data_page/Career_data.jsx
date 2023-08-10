@@ -12,7 +12,7 @@ const Career_data = () => {
   return (
     <div className='about_data p-5'>
  <div className='container'>
- <h1 className='text-center p-4 mt-5'>CAREER</h1>
+ <h1 className='text-center p-4 mt-5 testscol'>CAREER</h1>
           <Kweesha_icon />
       <h2 className='text-center read_title mt-5'>Career Opportunities at Kweesha Solutions </h2>
       <div className='justify-content-center'>
