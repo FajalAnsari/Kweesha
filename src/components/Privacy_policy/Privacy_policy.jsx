@@ -11,7 +11,7 @@ const Privacy_policy = () => {
   return (
     <div className='privacy_data p-5'>
        <div className='container p-5 mb-4'>
-       <h1 className='text-center p-4  mt-5'>Privacy Policy</h1>
+       <h1 className='text-center p-4  mt-5 testscol'>Privacy Policy</h1>
           <Kweesha_icon />
         <h5 className='mt-5'>Privacy Policy:</h5>
         <p className='w-75 mx-auto'>At Kweesha Solutions, we take your privacy seriously. This Privacy Policy outlines how we collect, use, disclose, and protect your personal information. By using our website and services, you consent to the terms of this Privacy Policy.

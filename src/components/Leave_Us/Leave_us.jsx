@@ -125,7 +125,7 @@ const Leave_us = () => {
   return (
     <>
       <div className="leave_us p-5">
-        <h1 className='text-center p-4'>LEAVE US A MESSAGE!</h1>
+        <h1 className='text-center p-4 testscol'>LEAVE US A MESSAGE!</h1>
         <img src={kweesha_home_logo} className='mb-5 mx-auto d-block' alt='kweesha_icon'></img>
         <div className="container">
           <div className="shadow form-container forms-bg  mb-4 mx-auto p-5">
