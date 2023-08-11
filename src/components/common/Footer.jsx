@@ -56,16 +56,13 @@ const Footer = () => {
                       className="mb-3 mt-1 d-inline-block mx-auto footer_com"
                     />
                     <p>
-                      <Link to="employwoman.com" className="text-dark text-decoration-none p1">Employee</Link>
+                      Employee Women
                     </p>
                     <p>
-                      <Link to="" className="text-dark text-decoration-none p1">Agreement </Link>
+                   E-sign
                     </p>
                     <p>
-                      <Link to="" className="text-dark text-decoration-none p1">E-sign</Link>
-                    </p>
-                    <p>
-                      <Link to="omfg.pro" className="text-dark text-decoration-none p1">Omfg</Link>
+                      Omfg
                     </p>
                   </div>
 
@@ -123,7 +120,7 @@ const Footer = () => {
                   <Link
                     className="btn  btn-floating m-1 text-dark icon"
                     role="button"
-                  ><i class="bi bi-linkedin linkdin"></i></Link>
+                  ><i className="bi bi-linkedin linkdin"></i></Link>
                 </div>
               </div>
             </section>
