@@ -13,7 +13,8 @@
 /* description style */
 .heading{
     color: var(--text-black-900);
-    font-family: 'Concert One', cursive;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
 }
 
 .title{

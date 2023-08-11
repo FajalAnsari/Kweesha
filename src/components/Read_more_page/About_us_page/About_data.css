@@ -8,6 +8,8 @@
  }
  .about_data .read_title{
      color: var(--bg-green-900);
+     font-family: 'Inter', sans-serif;
+     font-weight: 400;
  }
  .about_data .read_desc{
      color: var(--read_data);
@@ -49,10 +51,12 @@
 
  }
  .about_data h1{
-    font-family: 'Concert One', cursive;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
  }
  .about_data h2{
-    font-family: 'Concert One', cursive;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
  }
  @media only screen and (max-width: 540px) {
 .read_desc{
