@@ -11,7 +11,7 @@ const Term_condition = () => {
   return (
     <div className='privacy_data'>
        <div className='container p-5'>
-       <h1 className='text-center p-4  mt-4'>Terms and Conditions</h1>
+       <h1 className='text-center p-4  mt-4 testscol'>Terms and Conditions</h1>
           <Kweesha_icon />
         <h5 className='mt-5'>Terms and Conditions:</h5>
         <p className='w-75 mx-auto'>Welcome to Kweesha Solutions. These Terms and Conditions govern the use of our website and services. By using our website and services, you agree to the terms of this agreement.

@@ -1,6 +1,10 @@
 .contact_us .cont{
     color: var(--text-green-700);
 }
+
+.testscol{
+    color: #1c1c1c !important;
+}
 .cc {
 
 border: 1px solid var(--bg-green-900);
@@ -18,7 +22,8 @@ border-radius: 23px;
 }
 .contact_us h1{
     color: var(--text-black-700);
-    font-family: 'Concert One', cursive;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
     
 }
 .maps{
@@ -57,10 +62,11 @@ border-radius: 23px;
 }
 
 .qq{
-    width: 326px !important;
+    width: 266px !important;
     margin-left: -68%;
     margin-top: 55px !important;
     border-radius: 5%;
+    display: none;
 }
 .sk{
 margin-left: -25px !important;

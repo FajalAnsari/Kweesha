@@ -19,7 +19,8 @@
   color: var(--bg-green-900) !important;
 }
 .leave_us h1{
-  font-family: 'Concert One', cursive;
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
 }
 .leave_us .selct{
   outline: 0 !important;

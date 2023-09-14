@@ -30,25 +30,27 @@
 .Hero_Page p{
     width: 39%;
     margin-left: -28.85%;
-    font-family: 'Concert One', cursive;
+    font-family: 'Inter', sans-serif;
     color: var(--line);
+    font-weight: 600;
     opacity: .80;
 }
 .Hero_Page h1{
-    margin-left: -32.85%;
+    margin-left: -26.85%;
     font-size: 50px;
-    font-family: 'Concert One', cursive;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
     color: var(--bg-green-900);
 }
 
 @media only screen  and (max-width: 540px) {
     .Hero_Page h1{
-        margin-left: 0%;
+        margin-left: 25px !important;
         font-size: 24.5px;
     }
     .Hero_Page p{
         width: 90%;
-        font-family: 'sans-serif', system-ui;
+        font-family: 'Inter', sans-serif;
         margin-left: 5%;
         font-size: 16px !important;
     }
@@ -71,6 +73,13 @@
         width: 26%;
       }
 }
+
+@media only screen  and (width: 540px) {
+    .Hero_Page h1{
+        margin-left: -71px !important;
+        font-size: 24.5px;
+    }
+}
 @media only screen  and (width: 375px) {
     .Hero_Page .btns{
         padding-top: 2% !important;
@@ -79,12 +88,12 @@
 }
 @media only screen  and (min-width: 280px) and (max-width: 320px) {
     .Hero_Page h1{
-        margin-left: -7%;
+        margin-left: 4% !important;
         font-size: 18.5px;
     }
     .Hero_Page p{
         width: 90%;
-        font-family: 'sans-serif', system-ui;
+        font-family: 'Inter', sans-serif;
         margin-left: 5%;
         font-size: 14px !important;
     }
@@ -110,7 +119,7 @@
 
 @media only screen and (width: 912px) {
     .Hero_Page h1{
-        margin-left: -12%;
+        margin-left: -1%;
         font-size: 50px;
     }
     .Hero_Page p{
@@ -140,7 +149,7 @@
 
 @media only screen and (width: 768px) {
     .Hero_Page h1{
-        margin-left: -19%;
+        margin-left: -10%;
         font-size: 35px;
     }
     .Hero_Page p{
@@ -169,7 +178,7 @@
 }
 @media only screen and (width: 820px) {
     .Hero_Page h1{
-        margin-left: -23%;
+        margin-left: -14%;
         font-size: 35px;
     }
     .Hero_Page p{
