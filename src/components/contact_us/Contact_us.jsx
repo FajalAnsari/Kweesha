@@ -35,7 +35,7 @@ const Contact_us = () => {
               <div className='col-lg-10 col-sm-10'>
                 <p className='cont fs-5 mb-1 mt-1'>Visit us</p>
 
-                <p className='des w-75 mb-1'>16Navneet Vihar, Sector 9, Indira Nagar, Lucknow, Uttar Pradesh 226021</p>
+                <p className='des w-75 mb-1'>16 Navneet Vihar, Sector 9, Indira Nagar, Lucknow, Uttar Pradesh 226016</p>
                 <a href="https://goo.gl/maps/bPyuUeMTL2Ry7BuB8" className='text-decoration-none text-dark'>
                 <div className='d-flex'>
                   <h2 className='msg'>Get Direction </h2>
@@ -49,7 +49,7 @@ const Contact_us = () => {
             {/* Map */}
             <div className="qq">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14234.678331540266!2d81.0018291!3d26.882237!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399be34af2e0d36f%3A0x13fc545254663b45!2sDo%20It%20For%20Me%20LLC!5e0!3m2!1sen!2sin!4v1687763412150!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.6696269658123!2d81.0018623!3d26.882235599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399be2a6bfffffff%3A0x884f6c4fa7ac8905!2sKweesha%20Solutions%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1696330399118!5m2!1sen!2sin%22"
                 width="85%"
                 height="320"
                 style={{ marginTop: "-28px" }}

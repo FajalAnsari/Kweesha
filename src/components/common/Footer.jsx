@@ -21,7 +21,7 @@ const Footer = () => {
                       <br />
                       Nagar, Lucknow, Uttar Pradesh
                       <br />
-                      226021
+                      226016
                     </p>
                   </div>
                   <div className="col-md-4 col-lg-2 col-xl-2 col-6 mx-auto s-1 mb-4">
