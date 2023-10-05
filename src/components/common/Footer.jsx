@@ -21,7 +21,7 @@ const Footer = () => {
                       <br />
                       Nagar, Lucknow, Uttar Pradesh
                       <br />
-                      226021
+                      226016
                     </p>
                   </div>
                   <div className="col-md-4 col-lg-2 col-xl-2 col-6 mx-auto s-1 mb-4">
@@ -103,21 +103,21 @@ const Footer = () => {
                 <div className="col-md-7 col-lg-5 ml-lg-0  text-center text-md-end">
                   <p className='btn text-success btn-floating m-1 '>Follow:</p>
 
-                  <Link
+                  <Link to="https://www.instagram.com/kweeshaglobal/?fbclid=IwAR1eC25wnDC18o2yTRATNykB-4dcibdkEiL7k-ku08dp8slH6OMS7LRxkys"
                     className="btn  btn-floating m-1 text-dark icon"
                     role="button"
                   ><i className="bi bi-instagram inst"></i></Link>
 
-                  <Link
+                  <Link to="https://www.facebook.com/Kweeshaglobal"
                     className="btn btn-floating m-1 text-dark icon"
                     role="button"
                   ><i className="bi bi-facebook facebook"></i></Link>
 
-                  <Link
+                  <Link to="https://www.youtube.com/@Kweeshaglobal"
                     className="btn btn-floating m-1 text-dark icon"
                     role="button"
-                  ><i className="bi bi-twitter twitter"></i></Link>
-                  <Link
+                  ><i className="bi bi-youtube youtube "></i></Link>
+                  <Link to="https://www.linkedin.com/company/kweeshaglobal/"
                     className="btn  btn-floating m-1 text-dark icon"
                     role="button"
                   ><i className="bi bi-linkedin linkdin"></i></Link>
