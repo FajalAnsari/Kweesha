@@ -56,7 +56,7 @@ So, if you're smart, driven, and ready to make a difference, apply today and joi
       </div>
       <div class="modal-body contentModel">
        <p>
-       <span className='fw-bold'>Important Update to Our Work Arrangements</span><br></br>
+       <span className='fw-bold'>Important Update to Our Work Arrangements</span><br></br><br></br>
 Dear Visitors,<br></br>
 In light of recent regulatory changes by the Central Government concerning work-from-home opportunities and the frauds arising from it, we at <span className='fw-bold'>Kweesha solutions private limited</span> are making essential updates to our employment practices. <br></br><br></br>
 
