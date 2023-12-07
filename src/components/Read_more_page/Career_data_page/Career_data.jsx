@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import Kweesha_icon from '../../common/Kweesha_icon';
 import { Link } from 'react-router-dom';
 import "../About_us_page/About_data.css";
-import "./Career_data_page.css";
+
 
 const Career_data = () => {
 
@@ -48,8 +48,8 @@ So, if you're smart, driven, and ready to make a difference, apply today and joi
 
 {/* <!-- Modal --> */}
 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content" style={{width:'190%', marginTop:"35%", marginLeft:"-45%"}}>  
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content" >  
       <div class="modal-header">
         <h1 class="modal-title fs-5" id="staticBackdropLabel">Important Update to Our Work Arrangements</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -72,7 +72,7 @@ Thank you for your understanding and continued interest in joining our team. Sho
        </p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">I Understood</button>
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Okay</button>
         {/* <button type="button" class="btn btn-primary">Understood</button> */}
       </div>
     </div>
