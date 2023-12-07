@@ -2,16 +2,24 @@ import React, { useEffect } from 'react'
 import Kweesha_icon from '../../common/Kweesha_icon';
 import { Link } from 'react-router-dom';
 import "../About_us_page/About_data.css";
+import "./Career_data_page.css";
 
 const Career_data = () => {
 
   useEffect(() =>{
     window.scrollTo(0, 0);
+        // Function to show the modal
+      const modalTriggerButton = document.querySelector('.ab');
+      if (modalTriggerButton) {
+        modalTriggerButton.click();
+      }
+       
   });
   
   return (
     <div className='about_data p-5'>
  <div className='container'>
+  
  <h1 className='text-center p-4 mt-5 testscol'>CAREER</h1>
           <Kweesha_icon />
       <h2 className='text-center read_title mt-5'>Career Opportunities at Kweesha Solutions </h2>
@@ -32,6 +40,45 @@ So, if you're smart, driven, and ready to make a difference, apply today and joi
       <Link to='/' className='text-decoration-none'><p className='about_buttonss text-center text-white fw-bold mt-5'>Apply Now</p></Link>
       </div>
  </div>
+ 
+ {/* <!-- Button trigger modal --> */}
+<button type="button" className="btn btn-white d-none ab" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+
+</button>
+
+{/* <!-- Modal --> */}
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content" style={{width:'190%', marginTop:"35%", marginLeft:"-45%"}}>  
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Important Update to Our Work Arrangements</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body contentModel">
+       <p>
+       <span className='fw-bold'>Important Update to Our Work Arrangements</span><br></br>
+Dear Visitors,<br></br>
+In light of recent regulatory changes by the Central Government concerning work-from-home opportunities and the frauds arising from it, we at <span className='fw-bold'>Kweesha solutions private limited</span> are making essential updates to our employment practices. <br></br><br></br>
+
+<span className='fw-bold'>Please Note:</span> As of December 1st, 2023, we regret to inform you that work-from-home options are no longer available for any roles within our organization. <br></br><br></br>
+
+This decision aligns with the latest guidelines and directives issued by the authorities.<br></br><br></br>
+
+We understand that this change might impact those seeking remote work opportunities. We assure you that this decision was made with careful consideration and is in compliance with new regulations. Our priority remains to offer a supportive and compliant work environment for all our team members.<br></br><br></br>
+
+For those interested in pursuing career opportunities with us, we encourage you to explore our current openings, which will now be based in-office. We are committed to providing a vibrant, dynamic, and collaborative workplace environment.<br></br><br></br>
+
+Thank you for your understanding and continued interest in joining our team. Should you have any queries or require further clarification, please do not hesitate to contact our HR department.
+       </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">I Understood</button>
+        {/* <button type="button" class="btn btn-primary">Understood</button> */}
+      </div>
+    </div>
+  </div>
+</div>
+{/* <!-- Modal --> */}
     </div>
   )
 }
