@@ -62,10 +62,11 @@ border-radius: 23px;
 }
 
 .qq{
-    width: 340px !important;
+    width: 266px !important;
     margin-left: -68%;
     margin-top: 55px !important;
     border-radius: 5%;
+    display: none;
 }
 .sk{
 margin-left: -25px !important;
