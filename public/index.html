@@ -3,58 +3,116 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="kweesha_logo.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#000000" />
-    <meta name="description" content="Web site created using create-react-app"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <!-- analytics details -->
+    <!-- Google Search Console -->
+    <meta
+      name="google-site-verification"
+      content="OpsQ7mrsUFvBniRGlxpIwp6qB910A10Hmlo6l5lG4eI"
+    />
+
+    <!-- Bing Webmaster -->
+    <meta name="msvalidate.01" content="8C107BCF835539FAB0413F76077E48E6" />
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-CJ0QE0NH53"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-CJ0QE0NH53");
+    </script>
+
+    <!-- Microsoft clarity -->
+    <script type="text/javascript">
+      (function (c, l, a, r, i, t, y) {
+        c[a] =
+          c[a] ||
+          function () {
+            (c[a].q = c[a].q || []).push(arguments);
+          };
+        t = l.createElement(r);
+        t.async = 1;
+        t.src = "https://www.clarity.ms/tag/" + i;
+        y = l.getElementsByTagName(r)[0];
+        y.parentNode.insertBefore(t, y);
+      })(window, document, "clarity", "script", "k2nmz6ngn5");
+    </script>
+
     <title>KWEESHA</title>
   </head>
   <body id="style-16">
- 
     <!-- Option 1: Progress bar on scroll window -->
     <div id="progress">
-       <span id="progress-value"><i class="bi bi-arrow-up"></i></span>
+      <span id="progress-value"><i class="bi bi-arrow-up"></i></span>
     </div>
-    
+
     <div id="root"></div>
-   
-     <!-- Option 1: Bootstrap Bundle with Popper -->
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-     
-     <!-- progress bar -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- progress bar -->
     <script>
       let calcScrollValue = () => {
-         let scrollProgress = document.getElementById("progress");
-         let progressValue = document.getElementById("progress-value");
-         let pos = document.documentElement.scrollTop;
-         let calcHeight = 
-         document.documentElement.scrollHeight - 
-         document.documentElement.clientHeight;
-         let scrollValue = Math.round((pos * 100) / calcHeight);
-        
-         if(pos > 100){
+        let scrollProgress = document.getElementById("progress");
+        let progressValue = document.getElementById("progress-value");
+        let pos = document.documentElement.scrollTop;
+        let calcHeight =
+          document.documentElement.scrollHeight -
+          document.documentElement.clientHeight;
+        let scrollValue = Math.round((pos * 100) / calcHeight);
+
+        if (pos > 100) {
           scrollProgress.style.display = "grid";
-         } else {
+        } else {
           scrollProgress.style.display = "none";
-         }
-         scrollProgress.addEventListener("click", () => {
-           document.documentElement.scrollTop = 0;
-         });
+        }
+        scrollProgress.addEventListener("click", () => {
+          document.documentElement.scrollTop = 0;
+        });
         scrollProgress.style.background = `radial-gradient(white 50%, transparent 51%),
              conic-gradient(transparent 0% ${scrollValue}%, gainsboro ${scrollValue}%),
              conic-gradient( var(--bg-green-900)  0deg, var(--bg-green-900)  90deg,  var(--bg-green-900) 180deg,  var(--bg-green-900))`;
-           };
-      
+      };
+
       window.onscroll = calcScrollValue;
       window.onload = calcScrollValue;
-     </script>
+    </script>
   </body>
 </html>
