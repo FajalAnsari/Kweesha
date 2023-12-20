@@ -56,15 +56,15 @@ const handleSubmit = (e) => {
 
 
      {isModalOpen && (
-  <div className="modal d-block" tabIndex="-1" style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)' }}>
+  <div className={isModalOpen ? "modal-container active modal d-block" : "modal-container modal d-block"}  tabIndex="-1" style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)' }}>
     <div className="modal-dialog modal-dialog-centered modal-lg">
-      <div className="modal-content" style={{ marginTop: '100px', backgroundImage: 'url(https://t3.ftcdn.net/jpg/02/96/93/68/240_F_296936885_ygqJkhURGFnX1Ujlol8GQfJNRVmeqmGf.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
+      <div className="modal-content" style={{ marginTop: '10px', backgroundImage: 'url(https://t3.ftcdn.net/jpg/02/96/93/68/240_F_296936885_ygqJkhURGFnX1Ujlol8GQfJNRVmeqmGf.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
         <div className="modal-header border-0">
           <button type="button" className="btn-close btn-close-black" data-bs-dismiss="modal" aria-label="Close" onClick={closeModal} ></button>
         </div>
-        <div className="modal-body p-4 justify-content-end" style={{color:'#34A853'}} >
-          <h2 >Happy Holiday</h2>
-          <p className="text-white w-50" >Make your holidays even more magical! Subscribe to our email list and enjoy inspiring tales of the season along with special surprises.</p>
+        <div className="modal-body p-4 justify-content-end" >
+          <h2 className='text-black'>Happy Holiday</h2>
+          <p className="text-black w-50">Make your holidays even more magical! Subscribe to our email list and enjoy inspiring tales of the season along with special surprises.</p>
           <form className="mt-3 w-50">
             <div className="mb-3">
               <label htmlFor="name" className="form-label">Name</label>
