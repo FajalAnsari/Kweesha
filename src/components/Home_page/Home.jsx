@@ -5,6 +5,7 @@ import About_us from './About_us';
 import Solutions from './Solutions';
 import Careers from './Careers';
 import axios from 'axios';
+import Holiday_Kweesha from "../../images/Kweesha_holiday_popup.png";
 const Home = () => {
   useEffect(()=>{
     setIsModalOpen(true);
@@ -27,7 +28,6 @@ const handleSubmit = (e) => {
     const data = { Name: Name, Email: Email, Mobile: Mobile };
 
     setIsModalOpen(false); // Close the initial modal
-    // dispatch(Holiday(data)); // Dispatch the action
     axios.post(`https://script.google.com/macros/s/AKfycbxTs9tFGh1K4K4swjbeKkEyqfp51EyR4EtYeNKVPItThKW-CJ2yAhOMj2V7blvQedicMg/exec?Name=${Name}&Email=${Email}&Mobile=${Mobile}`).then((res)=>{
     }).catch((err)=>{
       alert(err);
@@ -58,17 +58,17 @@ const handleSubmit = (e) => {
      {isModalOpen && (
   <div className={isModalOpen ? "modal-container active modal d-block" : "modal-container modal d-block"}  tabIndex="-1" style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)' }}>
     <div className="modal-dialog modal-dialog-centered modal-lg">
-      <div className="modal-content" style={{ marginTop: '10px', backgroundImage: 'url(https://t3.ftcdn.net/jpg/02/96/93/68/240_F_296936885_ygqJkhURGFnX1Ujlol8GQfJNRVmeqmGf.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
+      <div className="modal-content" style={{ marginTop: '10px', backgroundImage: `url(${Holiday_Kweesha})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
         <div className="modal-header border-0">
           <button type="button" className="btn-close btn-close-black" data-bs-dismiss="modal" aria-label="Close" onClick={closeModal} ></button>
         </div>
-        <div className="modal-body p-4 justify-content-end" >
-          <h2 className='text-black'>Happy Holiday</h2>
-          <p className="text-black w-50">Make your holidays even more magical! Subscribe to our email list and enjoy inspiring tales of the season along with special surprises.</p>
-          <form className="mt-3 w-50">
+        <div className="modal-body holiday_model p-4 justify-content-end" >
+          <h2 className='fw-bold'>Happy Holiday</h2>
+          <p className="text-black w-50" style={{color:'black'}}>Make your holidays even more magical! Subscribe to our email list and enjoy inspiring tales of the season along with special surprises.</p>
+          <form className="mt-3 w-50" style={{color:'black'}}>
             <div className="mb-3">
-              <label htmlFor="name" className="form-label">Name</label>
-              <input type="text"  className="form-control bg-transparent text-white border-0 border-bottom border-success" name='Name' id="name" placeholder="Enter Your Name" onChange={(e) => {setUserName(e.target.value)}} />
+              <label htmlFor="name" className="form-label aa">Name</label>
+              <input type="text"  className="form-control bg-transparent text-white border-0 border-bottom border-success " name='Name' id="name" placeholder="Enter Your Name" onChange={(e) => {setUserName(e.target.value)}} />
             </div>
             <div className="mb-3">
               <label htmlFor="email" className="form-label">Email</label>
@@ -79,7 +79,7 @@ const handleSubmit = (e) => {
               <input type="tel" className="form-control bg-transparent text-white border-0 border-bottom border-success" id="number" name='Mobile' placeholder="Enter Your Mobile" onChange={(e) => {setUserMobile(e.target.value)}} />
             </div>
             {error && <div className="alert alert-success" role="alert">{error}</div>}
-            <button type="submit" className="btn btn-success w-50 outline-none border-0" onClick={handleSubmit} style={{backgroundColor:'#4CAB65'}}>Send</button>
+            <button type="submit" className="btn btn-success w-50 outline-none border-0 holiday_send" onClick={handleSubmit} style={{backgroundColor:'#4CAB65'}}>Send</button>
           </form>
         </div>
       </div>

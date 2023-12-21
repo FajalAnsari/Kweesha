@@ -234,4 +234,15 @@
   .modal-container.active .modal-dialog {
     animation: slideDown 0.5s forwards;
   }
-  
+  .holiday_send:hover{
+background-color: rgb(21, 141, 21) !important ;
+  }
+  .holiday_model{
+    font-family: 'Inter', sans-serif;
+  }
+  /* for pop-up */
+  @media only screen and (max-width: 991px){
+    .holiday_model{
+        width:170% !important;
+    }
+  }
