@@ -194,3 +194,71 @@
        background-color: var(--bg-green-900);
       }
   }
+
+  /* for pop-up card animation */
+/* Modal.css */
+.modal-container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease, height 0.3s ease;
+  }
+  
+  .modal-container.active {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+  }
+  
+  .modal-dialog {
+    /* width: 60%; */
+
+    border-radius: 8px;
+    transform: translateY(-100%);
+  }
+  
+  @keyframes slideDown {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  .modal-container.active .modal-dialog {
+    animation: slideDown 0.5s forwards;
+  }
+  .holiday_send:hover{
+background-color: rgb(21, 141, 21) !important ;
+  }
+  .holiday_model{
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(250, 247, 247) !important;
+  }
+  .holiday_model .desc_holiday{
+    font-family: 'Outfit', sans-serif !important;
+    
+  }
+  /* If using a CSS file */
+.btn-close-green {
+    --bs-close: #00ff00 !important; /* Change the color to green */
+  }
+  /* for pop-up */
+  @media only screen and (max-width: 767px){
+    .holiday_model{
+       background: transparent !important;
+       
+    }
+  }
+  @media only screen  and (min-width: 768px) and (max-width: 992px){
+   .holiday_model{
+    background: transparent !important;
+    width: 200%;
+   }
+  }
