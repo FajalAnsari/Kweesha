@@ -239,10 +239,26 @@ background-color: rgb(21, 141, 21) !important ;
   }
   .holiday_model{
     font-family: 'Inter', sans-serif;
+    background-color: rgb(250, 247, 247) !important;
+  }
+  .holiday_model .desc_holiday{
+    font-family: 'Outfit', sans-serif !important;
+    
+  }
+  /* If using a CSS file */
+.btn-close-green {
+    --bs-close: #00ff00 !important; /* Change the color to green */
   }
   /* for pop-up */
-  @media only screen and (max-width: 991px){
+  @media only screen and (max-width: 767px){
     .holiday_model{
-        width:170% !important;
+       background: transparent !important;
+       
     }
+  }
+  @media only screen  and (min-width: 768px) and (max-width: 992px){
+   .holiday_model{
+    background: transparent !important;
+    width: 200%;
+   }
   }

@@ -59,29 +59,39 @@ const handleSubmit = (e) => {
   <div className={isModalOpen ? "modal-container active modal d-block" : "modal-container modal d-block"}  tabIndex="-1" style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)' }}>
     <div className="modal-dialog modal-dialog-centered modal-lg">
       <div className="modal-content" style={{ marginTop: '10px', backgroundImage: `url(${Holiday_Kweesha})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
-        <div className="modal-header border-0">
-          <button type="button" className="btn-close btn-close-black" data-bs-dismiss="modal" aria-label="Close" onClick={closeModal} ></button>
-        </div>
-        <div className="modal-body holiday_model p-4 justify-content-end" >
+
+        <div className='row '>
+          <div className='col-md-6 col-12 px-4 pt-3 pb-3 order-md-1 order-2'>
+          <div className="modal-body holiday_model p-4  bg-white rounded-2
+          
+          " >
           <h2 className='fw-bold'>Happy Holiday</h2>
-          <p className="text-black w-50" style={{color:'black'}}>Make your holidays even more magical! Subscribe to our email list and enjoy inspiring tales of the season along with special surprises.</p>
-          <form className="mt-3 w-50" style={{color:'black'}}>
+          <p className="text-black desc_holiday fw-normal " style={{color:'black'}}>Make your holidays even more magical! Subscribe to our email list and enjoy inspiring tales of the season along with special surprises.</p>
+          <form className="mt-3 " style={{color:'black'}}>
             <div className="mb-3">
               <label htmlFor="name" className="form-label aa">Name</label>
-              <input type="text"  className="form-control bg-transparent text-white border-0 border-bottom border-success " name='Name' id="name" placeholder="Enter Your Name" onChange={(e) => {setUserName(e.target.value)}} />
+              <input type="text"  className="form-control bg-transparent text-white border-0 border-bottom border-success desc_holiday" name='Name' id="name" placeholder="Enter Your Name" onChange={(e) => {setUserName(e.target.value)}} />
             </div>
             <div className="mb-3">
               <label htmlFor="email" className="form-label">Email</label>
-              <input type="email" className="form-control bg-transparent text-white border-0 border-bottom border-success" id="email" name='Email' placeholder="Enter Your Email" onChange={(e) => {setUserEmail(e.target.value)}} />
+              <input type="email" className="form-control bg-transparent text-white border-0 border-bottom border-success desc_holiday" id="email" name='Email' placeholder="Enter Your Email" onChange={(e) => {setUserEmail(e.target.value)}} />
             </div>
             <div className="mb-3">
               <label htmlFor="number" className="form-label">Mobile</label>
-              <input type="tel" className="form-control bg-transparent text-white border-0 border-bottom border-success" id="number" name='Mobile' placeholder="Enter Your Mobile" onChange={(e) => {setUserMobile(e.target.value)}} />
+              <input type="tel" className="form-control bg-transparent text-white border-0 border-bottom border-success desc_holiday" id="number" name='Mobile' placeholder="Enter Your Mobile" onChange={(e) => {setUserMobile(e.target.value)}} />
             </div>
             {error && <div className="alert alert-success" role="alert">{error}</div>}
             <button type="submit" className="btn btn-success w-50 outline-none border-0 holiday_send" onClick={handleSubmit} style={{backgroundColor:'#4CAB65'}}>Send</button>
           </form>
         </div>
+          </div>
+          <div className='col-md-6 col-12 order-md-2 order-1'>
+        <div className="modal-header border-0">
+          <button type="button" className="btn-close btn-close-green" data-bs-dismiss="modal" aria-label="Close" onClick={closeModal}></button>
+        </div>
+</div>
+        </div>
+
       </div>
     </div>
   </div>
