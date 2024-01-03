@@ -1,7 +1,7 @@
 import React from 'react'
-import { kweesha_careers } from "../../images";
+import { hero_image } from "../../images";
 import "./Home.css";
-import Kweesha_icon from '../common/Kweesha_icon';
+import KweeshaIcon from '../common/KweeshaIcon';
 import { Link } from 'react-router-dom';
 
 
@@ -15,10 +15,10 @@ const Careers = () => {
         <div className='main p-5 section' id='career'>
             <div className='mt-5 mts'>
             <h1 className='text-center heading text-uppercase testscol'>CAREERS</h1>
-          <Kweesha_icon/>
+          <KweeshaIcon/>
             <div className='row mt-5'>
                 <div className='col-lg-6 col-12 mobres'>
-                 <img src={kweesha_careers} className='img me-5' alt='home_page'></img>
+                 <img src={hero_image} className='img me-5' alt='home_page'></img>
                 </div>
                 <div className='col-lg-6 col-12 data'>
                   <h5 className='fs-4 title careers-w text-start'>Join the Kweesha Solutions Team: Exciting Career Opportunities in Problem-Solving and Sustainability</h5>

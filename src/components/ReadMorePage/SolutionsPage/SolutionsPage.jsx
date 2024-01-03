@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
-import Kweesha_icon from '../../common/Kweesha_icon';
+import KweeshaIcon from '../../common/KweeshaIcon';
 import { Link } from 'react-router-dom';
-import "../About_us_page/About_data.css";
+import "../AboutUsPage/AboutData.css";
 
-const Solutions_page = () => {
+const SolutionsPage = () => {
 
   useEffect(() =>{
     window.scrollTo(0, 0);
@@ -13,7 +13,7 @@ const Solutions_page = () => {
     <div className='about_data p-5'>
         <div className='container'>
             <h1 className='text-center p-4 mt-5 testscol'>SOLUTIONS</h1>
-          <Kweesha_icon />
+          <KweeshaIcon />
       <h2 className='text-center read_title mt-5'>Unlocking Business Potential  </h2>
       <div className='justify-content-center'>
       <p className='read_desc mt-4  mx-auto'>
@@ -32,4 +32,4 @@ By identifying and focusing on key growth factors, we help your business move be
   )
 }
 
-export default Solutions_page
+export default SolutionsPage

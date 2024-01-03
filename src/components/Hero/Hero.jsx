@@ -1,8 +1,7 @@
 import React from 'react'
-import Leave_us from '../Leave_Us/Leave_us';
-import { Link } from 'react-router-dom';
+import LeaveUs from '../LeaveUs/LeaveUs';
 import { kweesha_herologo } from '../../images';
-import Home from '../Home_page/Home';
+import Home from '../HomePage/Home';
 import "./Hero.css";
 
 const Hero = () => {
@@ -21,7 +20,7 @@ const Hero = () => {
 
      
       <Home />
-      <Leave_us />
+      <LeaveUs />
     </>
   )
 }

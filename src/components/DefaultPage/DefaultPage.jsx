@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import "./Defualt_page.css";
+import "./DefualtPage.css";
 
 const Default_page = () => {
   return (

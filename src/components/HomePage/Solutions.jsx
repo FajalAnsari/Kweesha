@@ -1,7 +1,7 @@
 import React from 'react'
 import { kweesha_solutions } from "../../images";
 import "./Home.css";
-import Kweesha_icon from '../common/Kweesha_icon';
+import KweeshaIcon from '../common/KweeshaIcon';
 import { Link } from 'react-router-dom';
 
 
@@ -14,7 +14,7 @@ const Solutions = () => {
         <div className='main p-5 section' id='solution'>
             <div className='mt-5 mts'>
             <h1 className='text-center heading text-uppercase testscol'>SOLUTION</h1>
-          <Kweesha_icon/>
+          <KweeshaIcon/>
             <div className='row mt-5'>
                 <div className='col-lg-6 col-12 mobres'>
                  <img src={kweesha_solutions} className='img me-5' alt='home_page'></img>
