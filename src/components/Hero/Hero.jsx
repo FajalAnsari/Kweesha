@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <>
 
-      {/* <!-- Background image --> */}
+      {/* <!-- Background Image --> */}
       <div class="bg-image justify-content-center align-items-center Hero_Page d-flex flex-column section" id="home">
         <img src={kweesha_herologo} alt="kweesha_herologo" className='kweesha1_herologo'/>
         <h1>Welcome to Kweesha Solutions <br />
