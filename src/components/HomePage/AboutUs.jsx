@@ -1,11 +1,11 @@
 import React from 'react'
 import { kweesha_about } from "../../images";
 import "./Home.css";
-import Kweesha_icon from '../common/Kweesha_icon';
+import KweeshaIcon from '../common/KweeshaIcon';
 import { Link } from 'react-router-dom';
 
 
-const About_us = () => {
+const AboutUs = () => {
 
 
   return (
@@ -15,7 +15,7 @@ const About_us = () => {
       <div className='main p-5 section' id='about_us'>
         <div className='mt-5 mts'>
           <h1 className='text-center heading text-uppercase testscol'>About Us</h1>
-          <Kweesha_icon />
+          <KweeshaIcon />
           <div className='row mt-5'>
             <div className='col-lg-6 col-12'>
               <img src={kweesha_about} className='img me-5' alt='home_page'></img>
@@ -37,6 +37,6 @@ const About_us = () => {
   )
 }
 
-export default About_us;
+export default AboutUs;
 
 

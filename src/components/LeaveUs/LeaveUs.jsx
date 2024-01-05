@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import "./Leave_Us.css";
+import "./LeaveUs.css";
 import { Link } from 'react-router-dom';
 import kweesha_home_logo from "../../images/kweesha_home_logo.svg";
 
-const Leave_us = () => {
+const LeaveUs = () => {
   const [fullName, setFullName] = useState('');
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
@@ -211,4 +211,4 @@ const Leave_us = () => {
   )
 }
 
-export default Leave_us;
+export default LeaveUs;

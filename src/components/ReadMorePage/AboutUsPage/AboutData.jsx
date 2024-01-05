@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
-import Kweesha_icon from '../../common/Kweesha_icon'
+import KweeshaIcon from '../../common/KweeshaIcon'
 import { Link } from 'react-router-dom';
-import "./About_data.css";
-const About_data = () => {
+import "./AboutData.css";
+const AboutData = () => {
 
   useEffect(() =>{
     window.scrollTo(0, 0);
@@ -12,7 +12,7 @@ const About_data = () => {
     <div className='about_data p-5'>
         <div className='container'>
         <h1 className='text-center p-4  mt-5 testscol'>ABOUT US</h1>
-          <Kweesha_icon />
+          <KweeshaIcon />
       <h2 className='text-center read_title mt-5'>Empowering Business Growth through Tailored Solutions</h2>
       <div className='justify-content-center'>
       <p className='read_desc mt-4  mx-auto'>
@@ -31,4 +31,4 @@ We harness our expertise in finance, technology, science, and psychology to devi
   )
 }
 
-export default About_data
+export default AboutData

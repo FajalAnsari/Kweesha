@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
-import Kweesha_icon from '../common/Kweesha_icon';
-import "../Privacy_policy/Pivacy_policy.css"
+import KweeshaIcon from '../common/KweeshaIcon';
+import "../PrivacyPolicy/PivacyPolicy.css"
 
-const Term_condition = () => {
+const TermCondition = () => {
 
   useEffect(() =>{
     window.scrollTo(0, 0);
@@ -12,7 +12,7 @@ const Term_condition = () => {
     <div className='privacy_data'>
        <div className='container p-5'>
        <h1 className='text-center p-4  mt-4 testscol'>Terms and Conditions</h1>
-          <Kweesha_icon />
+          <KweeshaIcon />
         <h5 className='mt-5'>Terms and Conditions:</h5>
         <p className='w-75 mx-auto'>Welcome to Kweesha Solutions. These Terms and Conditions govern the use of our website and services. By using our website and services, you agree to the terms of this agreement.
         </p>
@@ -37,4 +37,4 @@ const Term_condition = () => {
   )
 }
 
-export default Term_condition
+export default TermCondition

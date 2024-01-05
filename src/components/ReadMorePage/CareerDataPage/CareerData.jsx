@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react'
-import Kweesha_icon from '../../common/Kweesha_icon';
+import KweeshaIcon from '../../common/KweeshaIcon';
 import { Link } from 'react-router-dom';
-import "../About_us_page/About_data.css";
+import "../AboutUsPage/AboutData.css";
 
 
-const Career_data = () => {
+const CareerData = () => {
 
   useEffect(() =>{
     window.scrollTo(0, 0);
@@ -21,7 +21,7 @@ const Career_data = () => {
  <div className='container'>
   
  <h1 className='text-center p-4 mt-5 testscol'>CAREER</h1>
-          <Kweesha_icon />
+          <KweeshaIcon />
       <h2 className='text-center read_title mt-5'>Career Opportunities at Kweesha Solutions </h2>
       <div className='justify-content-center'>
       <p className='read_desc mt-4  mx-auto'>
@@ -83,4 +83,4 @@ Thank you for your understanding and continued interest in joining our team. Sho
   )
 }
 
-export default Career_data
+export default CareerData
