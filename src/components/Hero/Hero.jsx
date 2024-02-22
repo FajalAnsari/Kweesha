@@ -1,5 +1,4 @@
 import React from 'react'
-import LeaveUs from '../LeaveUs/LeaveUs';
 import { kweesha_herologo } from '../../images';
 import Home from '../HomePage/Home';
 import "./Hero.css";
@@ -20,7 +19,6 @@ const Hero = () => {
 
      
       <Home />
-      <LeaveUs />
     </>
   )
 }

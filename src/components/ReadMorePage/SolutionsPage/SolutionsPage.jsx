@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import KweeshaIcon from '../../common/KweeshaIcon';
 import { Link } from 'react-router-dom';
 import "../AboutUsPage/AboutData.css";
+import LeaveUs from '../../LeaveUs/LeaveUs';
 
 const SolutionsPage = () => {
 
@@ -10,6 +11,7 @@ const SolutionsPage = () => {
   });
   
   return (
+    <>
     <div className='about_data p-5'>
         <div className='container'>
             <h1 className='text-center p-4 mt-5 testscol'>SOLUTIONS</h1>
@@ -29,6 +31,8 @@ By identifying and focusing on key growth factors, we help your business move be
       <Link to='/'><p className='about_button text-center text-white fw-bold mx-auto mt-5'><i class="bi bi-arrow-left-short arrow"></i></p></Link>        
         </div>
     </div>
+    <LeaveUs />
+    </>
   )
 }
 

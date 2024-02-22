@@ -8,6 +8,7 @@ import CareerData from './components/ReadMorePage/CareerDataPage/CareerData';
 import DefaultPage from './components/DefaultPage/DefaultPage';
 import TermCondition from './components/TermCondition/TermCondition';
 import PrivacyPolicy from './components/PrivacyPolicy/PrivacyPolicy';
+import Contact_us from './components/contact_us/Contact_us';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Route path="/careers" element={<CareerData />} />
       <Route path="/terms_condition" element={<TermCondition />} />
       <Route path="/privacyPolicy" element={<PrivacyPolicy />} />
+      <Route path="/contact" element={<Contact_us />} />
       <Route path='/*' element={<DefaultPage />} />
     </Routes>
      <Footer/>

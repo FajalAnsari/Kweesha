@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import KweeshaIcon from '../../common/KweeshaIcon';
 import { Link } from 'react-router-dom';
 import "../AboutUsPage/AboutData.css";
-
+import LeaveUs from '../../LeaveUs/LeaveUs';
 
 const CareerData = () => {
 
@@ -17,6 +17,7 @@ const CareerData = () => {
   });
   
   return (
+    <>
     <div className='about_data p-5'>
  <div className='container'>
   
@@ -80,6 +81,8 @@ Thank you for your understanding and continued interest in joining our team. Sho
 </div>
 {/* <!-- Modal --> */}
     </div>
+    <LeaveUs />
+    </>
   )
 }
 

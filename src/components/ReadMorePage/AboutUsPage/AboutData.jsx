@@ -2,6 +2,10 @@ import React, { useEffect } from 'react'
 import KweeshaIcon from '../../common/KweeshaIcon'
 import { Link } from 'react-router-dom';
 import "./AboutData.css";
+import LeaveUs from '../../LeaveUs/LeaveUs';
+
+
+
 const AboutData = () => {
 
   useEffect(() =>{
@@ -9,6 +13,7 @@ const AboutData = () => {
   });
   
   return (
+    <>
     <div className='about_data p-5'>
         <div className='container'>
         <h1 className='text-center p-4  mt-5 testscol'>ABOUT US</h1>
@@ -28,6 +33,8 @@ We harness our expertise in finance, technology, science, and psychology to devi
       </div>
 
     </div>
+    <LeaveUs />
+    </>
   )
 }
 

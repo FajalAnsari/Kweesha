@@ -47,25 +47,7 @@ const Footer = () => {
                     
                   </div>
 
-                  <div className="col-md-4 col-lg-2 col-xl-2 col-6 mx-auto mb-4 s-1">
-                    <hr
-                      className="mb-2 mt-0 d-inline-block mx-auto footer_com"
-                    />
-                    <h6 className="text-uppercase fw-bold text-success">Upcoming</h6>
-                    <hr
-                      className="mb-3 mt-1 d-inline-block mx-auto footer_com"
-                    />
-                    <p>
-                      Employee Women
-                    </p>
-                    <p>
-                   E-sign
-                    </p>
-                    <p>
-                      Omfg
-                    </p>
-                  </div>
-
+                 
                   
                   <div className="col-md-12 col-lg-5 col-xl-5 col-12  mb-4 s-1">
                     <hr

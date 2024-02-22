@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Contact_us.css";
 import kweesha_home_logo from "../../images/kweesha_home_logo.svg";
+import LeaveUs from '../LeaveUs/LeaveUs';
 const Contact_us = () => {
   return (
     <>
@@ -62,8 +63,9 @@ const Contact_us = () => {
           </div>
         </div>
       </div>
-      <p  id='leavus'></p>
+   
     </div>
+    <LeaveUs />
     </>
   )
 }
